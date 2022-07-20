@@ -1,6 +1,6 @@
 import pandas as pd
 from DeepPurpose import DTI as models
-targets = pd.read_csv('disease_targets.csv')
+targets = pd.read_csv(r'./Data/csv/disease_targets.csv')
 df_drugs = pd.read_csv('cann_mols.csv') 
 
 targets['drug_name'] = df_drugs['Name'][0]
