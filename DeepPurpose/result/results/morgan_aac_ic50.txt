@@ -1,0 +1,2362 @@
++------+--------------------+-------------+---------------+
+| Rank |     Drug Name      | Target Name | Binding Score |
++------+--------------------+-------------+---------------+
+|  1   |     Quercetin      |    P28062   |      6.47     |
+|  2   |      Luteolin      |    P28062   |      6.37     |
+|  3   |    Cannflavin A    |    P28062   |      6.32     |
+|  4   |     Canniprene     |    P28062   |      6.28     |
+|  5   |    Cannflavin B    |    P28062   |      6.23     |
+|  6   |     Quercetin      |    Q13510   |      6.20     |
+|  7   |     Quercetin      |    P01889   |      6.19     |
+|  8   |      Luteolin      |    Q13510   |      6.09     |
+|  9   |      Luteolin      |    P01889   |      6.07     |
+|  10  |    Cannflavin A    |    Q13510   |      6.04     |
+|  11  |    Cannflavin A    |    P01889   |      6.02     |
+|  12  |     Canniprene     |    Q13510   |      6.01     |
+|  13  |     Canniprene     |    P01889   |      5.99     |
+|  14  | 6-prenylnaringenin |    P28062   |      5.96     |
+|  15  |    Cannflavin B    |    Q13510   |      5.95     |
+|  16  |     Quercetin      |    O75173   |      5.92     |
+|  17  |     Quercetin      |    B5A964   |      5.91     |
+|  18  |    Cannflavin B    |    P01889   |      5.90     |
+|  19  |     Quercetin      |    P05231   |      5.90     |
+|  20  |     Quercetin      |    P35916   |      5.89     |
+|  21  |     Quercetin      |    B7VFE3   |      5.89     |
+|  22  |    Cannflavin C    |    P28062   |      5.88     |
+|  23  | Cannabistilbene I  |    P28062   |      5.88     |
+|  24  |     Quercetin      |    P43405   |      5.86     |
+|  25  |     Hesperetin     |    P28062   |      5.85     |
+|  26  |      Luteolin      |    O75173   |      5.83     |
+|  27  |     Quercetin      |    A2NVQ1   |      5.80     |
+|  28  |      Luteolin      |    B5A964   |      5.79     |
+|  29  |      Luteolin      |    B7VFE3   |      5.79     |
+|  30  |      Luteolin      |    P35916   |      5.79     |
+|  31  |     Quercetin      |    Q96S37   |      5.77     |
+|  32  |    Cannflavin A    |    O75173   |      5.76     |
+|  33  |    Cannflavin A    |    B7VFE3   |      5.75     |
+|  34  |      Luteolin      |    P05231   |      5.75     |
+|  35  |    Cannflavin A    |    B5A964   |      5.74     |
+|  36  |      Luteolin      |    P43405   |      5.74     |
+|  37  |    Cannflavin A    |    P35916   |      5.73     |
+|  38  |     Canniprene     |    B7VFE3   |      5.72     |
+|  39  |     Quercetin      |    Q08345   |      5.72     |
+|  40  |     Quercetin      |    P07333   |      5.71     |
+|  41  |     Canniprene     |    B5A964   |      5.71     |
+|  42  |     Canniprene     |    O75173   |      5.71     |
+|  43  |      Luteolin      |    A2NVQ1   |      5.70     |
+|  44  |     Canniprene     |    P35916   |      5.69     |
+|  45  |     Quercetin      |    A2NVQ0   |      5.69     |
+|  46  | 6-prenylnaringenin |    Q13510   |      5.69     |
+|  47  |    Cannflavin B    |    B7VFE3   |      5.68     |
+|  48  |    Cannflavin B    |    O75173   |      5.68     |
+|  49  |    Cannflavin A    |    P05231   |      5.68     |
+|  50  |     Quercetin      |  A0A0A1I7H6 |      5.68     |
+|  51  |    Cannflavin A    |    P43405   |      5.67     |
+|  52  |     Quercetin      |    Q9MYB9   |      5.66     |
+|  53  |     Canniprene     |    P05231   |      5.66     |
+|  54  |     Quercetin      |    Q96P31   |      5.65     |
+|  55  |    Cannflavin A    |    A2NVQ1   |      5.65     |
+|  56  |    Cannflavin B    |    B5A964   |      5.64     |
+|  57  |     Canniprene     |    P43405   |      5.64     |
+|  58  |    Cannflavin C    |    Q13510   |      5.64     |
+|  59  |    Cannflavin B    |    P35916   |      5.63     |
+|  60  |     Quercetin      |    Q5TBB1   |      5.63     |
+|  61  |     Canniprene     |    A2NVQ1   |      5.62     |
+|  62  |     Quercetin      |    P10721   |      5.62     |
+|  63  |     Quercetin      |    Q9NP59   |      5.62     |
+|  64  | Cannabistilbene I  |    Q13510   |      5.61     |
+|  65  |     Quercetin      |    B5A965   |      5.60     |
+|  66  |      Luteolin      |    Q96S37   |      5.59     |
+|  67  |     Quercetin      |    P01911   |      5.59     |
+|  68  |     Quercetin      |    I7GSJ6   |      5.58     |
+|  69  |    Cannflavin B    |    A2NVQ1   |      5.58     |
+|  70  |     Hesperetin     |    Q13510   |      5.58     |
+|  71  |     Quercetin      |    I7HDD9   |      5.57     |
+|  72  |      Luteolin      |    A2NVQ0   |      5.57     |
+|  73  |      Luteolin      |    Q08345   |      5.57     |
+|  74  |     Quercetin      |    B5A977   |      5.57     |
+|  75  |     Quercetin      |    P35968   |      5.56     |
+|  76  |    Cannflavin C    |    P01889   |      5.55     |
+|  77  |      Luteolin      |    Q96P31   |      5.55     |
+|  78  |     Quercetin      |    P48736   |      5.55     |
+|  79  | 6-prenylnaringenin |    P01889   |      5.55     |
+|  80  |      Luteolin      |    B5A965   |      5.54     |
+|  81  |    Cannflavin A    |    Q96S37   |      5.53     |
+|  82  |      Luteolin      |    P07333   |      5.53     |
+|  83  |     Quercetin      |    Q13546   |      5.52     |
+|  84  |      Luteolin      |    Q5TBB1   |      5.52     |
+|  85  |    Cannflavin B    |    P43405   |      5.52     |
+|  86  |     Quercetin      |    E1CJT3   |      5.52     |
+|  87  |      Luteolin      |    Q9NP59   |      5.52     |
+|  88  |    Cannflavin A    |    A2NVQ0   |      5.52     |
+|  89  |    Cannflavin B    |    P05231   |      5.51     |
+|  90  |     Quercetin      |    Q9HBA0   |      5.51     |
+|  91  |     Quercetin      |    P09619   |      5.50     |
+|  92  |    Cannflavin A    |    B5A965   |      5.50     |
+|  93  |    Cannflavin A    |    Q08345   |      5.50     |
+|  94  |      Luteolin      |    P10721   |      5.50     |
+|  95  |    Cannflavin A    |    Q96P31   |      5.50     |
+|  96  | 6-prenylnaringenin |    B7VFE3   |      5.50     |
+|  97  |     Canniprene     |    Q96S37   |      5.50     |
+|  98  |     Quercetin      |    Q06187   |      5.49     |
+|  99  |     Quercetin      |    Q30157   |      5.49     |
+| 100  | Cannabistilbene I  |    P01889   |      5.49     |
+| 101  |      Luteolin      |  A0A0A1I7H6 |      5.49     |
+| 102  |      Luteolin      |    I7HDD9   |      5.49     |
+| 103  |     Quercetin      |    Q4ZHG4   |      5.49     |
+| 104  |     Canniprene     |    A2NVQ0   |      5.49     |
+| 105  |      Luteolin      |    Q9MYB9   |      5.48     |
+| 106  |     Quercetin      |    O95973   |      5.48     |
+| 107  |     Quercetin      |    Q8WUM9   |      5.47     |
+| 108  |     Quercetin      |    Q30036   |      5.47     |
+| 109  |    Cannflavin A    |    Q5TBB1   |      5.47     |
+| 110  |    Cannflavin A    |    Q9NP59   |      5.47     |
+| 111  |     Canniprene     |    Q96P31   |      5.47     |
+| 112  |      Luteolin      |    B5A977   |      5.47     |
+| 113  |      Luteolin      |    I7GSJ6   |      5.47     |
+| 114  |    Cannflavin B    |    B5A965   |      5.47     |
+| 115  |     Canniprene     |    B5A965   |      5.46     |
+| 116  |     Quercetin      |    Q6LBF4   |      5.46     |
+| 117  |     Canniprene     |    Q08345   |      5.46     |
+| 118  |    Cannflavin A    |    P07333   |      5.45     |
+| 119  |     Quercetin      |  A0A5K1TT58 |      5.45     |
+| 120  | 6-prenylnaringenin |    O75173   |      5.45     |
+| 121  |    Cannflavin A    |    I7HDD9   |      5.44     |
+| 122  |    Cannflavin B    |    Q96P31   |      5.44     |
+| 123  |     Canniprene     |    Q9NP59   |      5.44     |
+| 124  |     Quercetin      |  A0A1S6KJG4 |      5.44     |
+| 125  |     Canniprene     |    Q5TBB1   |      5.44     |
+| 126  |     Quercetin      |    Q9UP52   |      5.43     |
+| 127  |     Hesperetin     |    P01889   |      5.43     |
+| 128  |    Cannflavin A    |    B5A977   |      5.42     |
+| 129  |     Canniprene     |    P07333   |      5.42     |
+| 130  |     Canniprene     |    I7HDD9   |      5.42     |
+| 131  |    Cannflavin A    |    P10721   |      5.42     |
+| 132  |    Cannflavin A    |  A0A0A1I7H6 |      5.42     |
+| 133  |     Quercetin      |    P01374   |      5.42     |
+| 134  |    Cannflavin B    |    Q9NP59   |      5.41     |
+| 135  |    Cannflavin A    |    I7GSJ6   |      5.41     |
+| 136  |     Quercetin      |    Q16832   |      5.41     |
+| 137  |    Cannflavin A    |    Q9MYB9   |      5.41     |
+| 138  |     Quercetin      |    O00329   |      5.41     |
+| 139  |     Quercetin      |    A0N5G5   |      5.40     |
+| 140  |     Quercetin      |    Q30156   |      5.40     |
+| 141  |      Luteolin      |    P35968   |      5.40     |
+| 142  | Cannabistilbene I  |    B7VFE3   |      5.40     |
+| 143  |      Luteolin      |    P01911   |      5.40     |
+| 144  |     Quercetin      |    P80511   |      5.40     |
+| 145  |    Cannflavin B    |    I7HDD9   |      5.40     |
+| 146  |     Canniprene     |    B5A977   |      5.40     |
+| 147  |    Cannflavin B    |    Q5TBB1   |      5.39     |
+| 148  |    Cannflavin C    |    B7VFE3   |      5.39     |
+| 149  |      Luteolin      |    O95973   |      5.39     |
+| 150  |     Quercetin      |    Q92633   |      5.39     |
+| 151  |     Canniprene     |  A0A0A1I7H6 |      5.39     |
+| 152  |      Luteolin      |    Q4ZHG4   |      5.38     |
+| 153  |     Canniprene     |    I7GSJ6   |      5.38     |
+| 154  |      Luteolin      |    Q30036   |      5.38     |
+| 155  |      Luteolin      |    P48736   |      5.38     |
+| 156  |     Canniprene     |    P10721   |      5.38     |
+| 157  |    Cannflavin B    |    A2NVQ0   |      5.38     |
+| 158  |     Canniprene     |    Q9MYB9   |      5.38     |
+| 159  |     Hesperetin     |    B7VFE3   |      5.37     |
+| 160  |      Luteolin      |    Q13546   |      5.37     |
+| 161  |     Quercetin      |    I7HB73   |      5.37     |
+| 162  | 6-prenylnaringenin |    A2NVQ1   |      5.37     |
+| 163  |      Luteolin      |    Q6LBF4   |      5.36     |
+| 164  |     Quercetin      |    P01584   |      5.36     |
+| 165  |      Luteolin      |    E1CJT3   |      5.36     |
+| 166  |    Cannflavin B    |    B5A977   |      5.36     |
+| 167  |     Quercetin      |    Q969H8   |      5.36     |
+| 168  |     Quercetin      |    P41159   |      5.35     |
+| 169  |     Quercetin      |    A0N5G4   |      5.35     |
+| 170  |      Luteolin      |    Q8WUM9   |      5.35     |
+| 171  |    Cannflavin A    |    O95973   |      5.35     |
+| 172  |      Luteolin      |    Q9HBA0   |      5.35     |
+| 173  |      Luteolin      |  A0A1S6KJG4 |      5.35     |
+| 174  |    Cannflavin B    |    Q96S37   |      5.35     |
+| 175  |    Cannflavin B    |    Q08345   |      5.34     |
+| 176  |      Luteolin      |    Q9UP52   |      5.34     |
+| 177  |    Cannflavin A    |    Q30036   |      5.34     |
+| 178  |      Luteolin      |    P09619   |      5.34     |
+| 179  |     Quercetin      |    P08581   |      5.33     |
+| 180  |     Quercetin      |    I7GY82   |      5.33     |
+| 181  |    Cannflavin A    |    P35968   |      5.33     |
+| 182  |     Quercetin      |    P26651   |      5.33     |
+| 183  |    Cannflavin A    |    P01911   |      5.33     |
+| 184  |     Canniprene     |    O95973   |      5.33     |
+| 185  |    Cannflavin A    |    Q4ZHG4   |      5.33     |
+| 186  |      Luteolin      |    A0N5G5   |      5.32     |
+| 187  |     Quercetin      |    P17948   |      5.32     |
+| 188  |     Canniprene     |    Q30036   |      5.32     |
+| 189  |    Cannflavin A    |    Q6LBF4   |      5.32     |
+| 190  |     Quercetin      |    Q02223   |      5.32     |
+| 191  |     Quercetin      |    P19438   |      5.32     |
+| 192  |      Luteolin      |    Q30157   |      5.32     |
+| 193  |     Quercetin      |    Q9UKP4   |      5.31     |
+| 194  |     Quercetin      |    A2VED1   |      5.31     |
+| 195  |    Cannflavin A    |    Q13546   |      5.31     |
+| 196  |    Cannflavin A    |    P48736   |      5.30     |
+| 197  |     Canniprene     |    P01911   |      5.30     |
+| 198  |    Cannflavin B    |    I7GSJ6   |      5.30     |
+| 199  |    Cannflavin A    |  A0A1S6KJG4 |      5.30     |
+| 200  |     Canniprene     |    P35968   |      5.30     |
+| 201  |      Luteolin      |    Q06187   |      5.30     |
+| 202  |     Quercetin      |    C0LTP6   |      5.30     |
+| 203  |     Quercetin      |    Q14839   |      5.30     |
+| 204  |    Cannflavin A    |    E1CJT3   |      5.30     |
+| 205  |    Cannflavin B    |    P10721   |      5.30     |
+| 206  |     Canniprene     |    Q4ZHG4   |      5.29     |
+| 207  |    Cannflavin A    |    Q8WUM9   |      5.29     |
+| 208  |    Cannflavin A    |    Q9UP52   |      5.29     |
+| 209  |      Luteolin      |  A0A5K1TT58 |      5.29     |
+| 210  |     Canniprene     |    Q6LBF4   |      5.29     |
+| 211  |      Luteolin      |    P01374   |      5.29     |
+| 212  |    Cannflavin A    |    A0N5G5   |      5.29     |
+| 213  |     Quercetin      |    O00421   |      5.28     |
+| 214  |     Quercetin      |    A2NVP9   |      5.28     |
+| 215  |    Cannflavin A    |    Q9HBA0   |      5.28     |
+| 216  |      Luteolin      |    P01584   |      5.28     |
+| 217  |     Quercetin      |    Q4LE39   |      5.28     |
+| 218  |      Luteolin      |    P26651   |      5.28     |
+| 219  |     Quercetin      |    P08887   |      5.28     |
+| 220  |     Quercetin      |    B5A928   |      5.28     |
+| 221  |    Cannflavin B    |    O95973   |      5.28     |
+| 222  | Cannabistilbene I  |    O75173   |      5.28     |
+| 223  |     Quercetin      |    Q8TDF6   |      5.28     |
+| 224  | 6-prenylnaringenin |    B5A965   |      5.28     |
+| 225  |     Hesperetin     |    O75173   |      5.28     |
+| 226  |      Luteolin      |    P19438   |      5.28     |
+| 227  |    Cannflavin A    |    P09619   |      5.27     |
+| 228  |    Cannflavin B    |    P07333   |      5.27     |
+| 229  |     Canniprene     |    Q13546   |      5.27     |
+| 230  |      Luteolin      |    Q02223   |      5.27     |
+| 231  |    Cannflavin C    |    A2NVQ1   |      5.27     |
+| 232  |     Canniprene     |  A0A1S6KJG4 |      5.27     |
+| 233  |     Quercetin      |    P22301   |      5.27     |
+| 234  | Cannabistilbene I  |    A2NVQ1   |      5.27     |
+| 235  |     Quercetin      |    A0RZF8   |      5.27     |
+| 236  |     Canniprene     |    E1CJT3   |      5.26     |
+| 237  |     Canniprene     |    Q8WUM9   |      5.26     |
+| 238  | 6-prenylnaringenin |    P35916   |      5.26     |
+| 239  |    Cannflavin B    |    Q30036   |      5.26     |
+| 240  |     Canniprene     |    P48736   |      5.26     |
+| 241  |     Quercetin      |    O60880   |      5.26     |
+| 242  |     Canniprene     |    Q9UP52   |      5.26     |
+| 243  |     Canniprene     |    A0N5G5   |      5.26     |
+| 244  |      Luteolin      |    A0N5G4   |      5.26     |
+| 245  |     Quercetin      |    Q8NI89   |      5.25     |
+| 246  |      Luteolin      |    Q9UKP4   |      5.25     |
+| 247  |    Cannflavin A    |    Q30157   |      5.25     |
+| 248  |     Quercetin      |    P45452   |      5.25     |
+| 249  |     Quercetin      |    Q30047   |      5.25     |
+| 250  |     Canniprene     |    Q9HBA0   |      5.25     |
+| 251  |      Luteolin      |    Q16832   |      5.25     |
+| 252  |     Quercetin      |    Q9BX67   |      5.25     |
+| 253  | 6-prenylnaringenin |    B5A964   |      5.25     |
+| 254  |    Cannflavin A    |    P26651   |      5.24     |
+| 255  |    Cannflavin B    |  A0A0A1I7H6 |      5.24     |
+| 256  |     Quercetin      |    P35590   |      5.24     |
+| 257  |     Canniprene     |    P09619   |      5.24     |
+| 258  |    Cannflavin A    |    P19438   |      5.24     |
+| 259  |      Luteolin      |    Q30156   |      5.24     |
+| 260  |    Cannflavin A    |    Q02223   |      5.24     |
+| 261  |      Luteolin      |    P80511   |      5.24     |
+| 262  |     Quercetin      |    O75370   |      5.24     |
+| 263  |    Cannflavin A    |    P01584   |      5.24     |
+| 264  |    Cannflavin B    |    Q9MYB9   |      5.24     |
+| 265  |      Luteolin      |    I7HB73   |      5.24     |
+| 266  |     Hesperetin     |    A2NVQ1   |      5.23     |
+| 267  |      Luteolin      |    P08887   |      5.23     |
+| 268  |      Luteolin      |    B5A928   |      5.23     |
+| 269  |     Quercetin      |    A2VED2   |      5.23     |
+| 270  |    Cannflavin A    |    P01374   |      5.23     |
+| 271  |     Quercetin      |    P06702   |      5.23     |
+| 272  |    Cannflavin A    |    Q06187   |      5.23     |
+| 273  |    Cannflavin A    |  A0A5K1TT58 |      5.23     |
+| 274  |      Luteolin      |    O00329   |      5.23     |
+| 275  |    Cannflavin B    |    Q6LBF4   |      5.23     |
+| 276  |     Quercetin      |    Q13444   |      5.23     |
+| 277  |    Cannflavin B    |    Q4ZHG4   |      5.22     |
+| 278  |    Cannflavin C    |    O75173   |      5.22     |
+| 279  |     Quercetin      |    Q8N4C6   |      5.22     |
+| 280  |      Luteolin      |    P22301   |      5.22     |
+| 281  |      Luteolin      |    Q92633   |      5.22     |
+| 282  |     Quercetin      |    P55774   |      5.22     |
+| 283  |     Canniprene     |    Q30157   |      5.22     |
+| 284  |     Canniprene     |    P26651   |      5.22     |
+| 285  |     Quercetin      |    B5A948   |      5.22     |
+| 286  |     Quercetin      |    Q30048   |      5.22     |
+| 287  |     Quercetin      |    Q04912   |      5.22     |
+| 288  |      Luteolin      |    Q969H8   |      5.22     |
+| 289  |     Canniprene     |    Q02223   |      5.21     |
+| 290  |     Canniprene     |    P19438   |      5.21     |
+| 291  |    Cannflavin A    |    Q9UKP4   |      5.21     |
+| 292  |     Quercetin      |    P16112   |      5.21     |
+| 293  |     Quercetin      |    P98066   |      5.21     |
+| 294  |     Canniprene     |    P01584   |      5.21     |
+| 295  |      Luteolin      |    O60880   |      5.21     |
+| 296  |    Cannflavin B    |  A0A1S6KJG4 |      5.21     |
+| 297  | 6-prenylnaringenin |    I7HDD9   |      5.21     |
+| 298  |    Cannflavin A    |    A0N5G4   |      5.21     |
+| 299  |    Cannflavin C    |    B5A964   |      5.21     |
+| 300  |    Cannflavin B    |    A0N5G5   |      5.20     |
+| 301  | 6-prenylnaringenin |    Q96P31   |      5.20     |
+| 302  |    Cannflavin B    |    P19438   |      5.20     |
+| 303  |     Canniprene     |    P01374   |      5.20     |
+| 304  |    Cannflavin B    |    Q9UP52   |      5.20     |
+| 305  |     Canniprene     |    Q06187   |      5.20     |
+| 306  |    Cannflavin A    |    P08887   |      5.20     |
+| 307  |     Canniprene     |  A0A5K1TT58 |      5.20     |
+| 308  |    Cannflavin A    |    B5A928   |      5.20     |
+| 309  |      Luteolin      |    Q30047   |      5.20     |
+| 310  |      Luteolin      |    Q9BX67   |      5.19     |
+| 311  |    Cannflavin B    |    Q02223   |      5.19     |
+| 312  |      Luteolin      |    P41159   |      5.19     |
+| 313  |     Quercetin      |    Q13651   |      5.19     |
+| 314  |    Cannflavin A    |    P22301   |      5.19     |
+| 315  |    Cannflavin B    |    P26651   |      5.19     |
+| 316  |     Quercetin      |    I7H3Z5   |      5.19     |
+| 317  |     Quercetin      |    Q30201   |      5.19     |
+| 318  |     Quercetin      |    Q14789   |      5.18     |
+| 319  |    Cannflavin A    |    Q16832   |      5.18     |
+| 320  |    Cannflavin A    |    I7HB73   |      5.18     |
+| 321  |    Cannflavin B    |    P35968   |      5.18     |
+| 322  | 6-prenylnaringenin |    Q9NP59   |      5.18     |
+| 323  |     Canniprene     |    A0N5G4   |      5.18     |
+| 324  |     Canniprene     |    Q9UKP4   |      5.18     |
+| 325  |    Cannflavin A    |    Q30156   |      5.18     |
+| 326  |    Cannflavin B    |    Q8WUM9   |      5.18     |
+| 327  |    Cannflavin A    |    O60880   |      5.18     |
+| 328  |    Cannflavin A    |    P80511   |      5.18     |
+| 329  |     Quercetin      |    P58397   |      5.18     |
+| 330  | Cannabistilbene I  |    B5A964   |      5.18     |
+| 331  |     Canniprene     |    P08887   |      5.17     |
+| 332  |      Luteolin      |    O75370   |      5.17     |
+| 333  |      Luteolin      |    P55774   |      5.17     |
+| 334  |     Canniprene     |    B5A928   |      5.17     |
+| 335  |      Luteolin      |    Q8TDF6   |      5.17     |
+| 336  |      Luteolin      |    P17948   |      5.17     |
+| 337  |      Luteolin      |    I7GY82   |      5.17     |
+| 338  |      Luteolin      |    A2VED2   |      5.17     |
+| 339  |     Canniprene     |    P22301   |      5.17     |
+| 340  |    Cannflavin B    |    P48736   |      5.17     |
+| 341  |    Cannflavin B    |    Q13546   |      5.17     |
+| 342  |      Luteolin      |    P08581   |      5.17     |
+| 343  |    Cannflavin B    |    P01911   |      5.17     |
+| 344  |    Cannflavin C    |    P35916   |      5.17     |
+| 345  |    Cannflavin A    |    Q30047   |      5.17     |
+| 346  |     Quercetin      |    Q96P20   |      5.16     |
+| 347  |     Quercetin      |    Q99571   |      5.16     |
+| 348  |     Quercetin      |    P01589   |      5.16     |
+| 349  |    Cannflavin A    |    Q9BX67   |      5.16     |
+| 350  |    Cannflavin A    |    O00329   |      5.16     |
+| 351  |     Quercetin      |    A5LIN1   |      5.16     |
+| 352  |     Quercetin      |    A0RZG0   |      5.16     |
+| 353  |    Cannflavin A    |    Q92633   |      5.16     |
+| 354  |      Luteolin      |    P06702   |      5.16     |
+| 355  |     Canniprene     |    O60880   |      5.16     |
+| 356  |     Canniprene     |    I7HB73   |      5.16     |
+| 357  |    Cannflavin B    |    E1CJT3   |      5.16     |
+| 358  |    Cannflavin A    |    Q969H8   |      5.16     |
+| 359  |      Luteolin      |    Q30048   |      5.15     |
+| 360  |    Cannflavin B    |    P01584   |      5.15     |
+| 361  |     Canniprene     |    Q16832   |      5.15     |
+| 362  |     Quercetin      |    Q3KP44   |      5.15     |
+| 363  |      Luteolin      |    A2VED1   |      5.15     |
+| 364  |     Quercetin      |    A0RZF9   |      5.15     |
+| 365  |    Cannflavin B    |    P08887   |      5.15     |
+| 366  | Cannabistilbene I  |    P35916   |      5.15     |
+| 367  |     Canniprene     |    P80511   |      5.15     |
+| 368  |     Canniprene     |    Q30156   |      5.15     |
+| 369  |      Luteolin      |    Q30201   |      5.15     |
+| 370  |    Cannflavin B    |    B5A928   |      5.15     |
+| 371  |      Luteolin      |    C0LTP6   |      5.15     |
+| 372  | Cannabistilbene I  |    B5A965   |      5.15     |
+| 373  |    Cannflavin A    |    P55774   |      5.14     |
+| 374  |    Cannflavin B    |    P22301   |      5.14     |
+| 375  |    Cannflavin B    |    Q9UKP4   |      5.14     |
+| 376  |     Canniprene     |    Q30047   |      5.14     |
+| 377  |      Luteolin      |    Q14839   |      5.14     |
+| 378  |    Cannflavin B    |    Q9HBA0   |      5.14     |
+| 379  |     Hesperetin     |    B5A965   |      5.14     |
+| 380  |      Luteolin      |    A0RZF8   |      5.14     |
+| 381  |     Quercetin      |    A0N5G7   |      5.14     |
+| 382  |     Canniprene     |    Q9BX67   |      5.14     |
+| 383  |    Cannflavin B    |    P09619   |      5.14     |
+| 384  |     Hesperetin     |    B5A964   |      5.14     |
+| 385  |    Cannflavin A    |    O75370   |      5.13     |
+| 386  |     Canniprene     |    O00329   |      5.13     |
+| 387  |    Cannflavin A    |    P41159   |      5.13     |
+| 388  |     Canniprene     |    Q969H8   |      5.13     |
+| 389  |      Luteolin      |    A2NVP9   |      5.13     |
+| 390  |     Canniprene     |    Q92633   |      5.13     |
+| 391  |    Cannflavin A    |    A2VED2   |      5.13     |
+| 392  |    Cannflavin A    |    Q8TDF6   |      5.13     |
+| 393  |      Luteolin      |    Q4LE39   |      5.13     |
+| 394  |     Quercetin      |    P48960   |      5.13     |
+| 395  |      Luteolin      |    Q96P20   |      5.12     |
+| 396  |     Quercetin      |    Q8N6P7   |      5.12     |
+| 397  |    Cannflavin B    |    O60880   |      5.12     |
+| 398  |     Canniprene     |    P55774   |      5.12     |
+| 399  |    Cannflavin B    |    P01374   |      5.12     |
+| 400  | 6-prenylnaringenin |    Q5TBB1   |      5.12     |
+| 401  |    Cannflavin B    |    A0N5G4   |      5.12     |
+| 402  |      Luteolin      |    O00421   |      5.12     |
+| 403  | Cannabistilbene I  |    I7HDD9   |      5.12     |
+| 404  |    Cannflavin A    |    P06702   |      5.12     |
+| 405  |    Cannflavin A    |    Q30201   |      5.12     |
+| 406  | 6-prenylnaringenin |    B5A977   |      5.11     |
+| 407  |    Cannflavin C    |    I7HDD9   |      5.11     |
+| 408  |    Cannflavin C    |    Q96P31   |      5.11     |
+| 409  | 6-prenylnaringenin |    P43405   |      5.11     |
+| 410  |    Cannflavin A    |    Q30048   |      5.11     |
+| 411  |    Cannflavin A    |    I7GY82   |      5.11     |
+| 412  |     Hesperetin     |    P35916   |      5.11     |
+| 413  |    Cannflavin A    |    P17948   |      5.11     |
+| 414  |    Cannflavin A    |    P08581   |      5.11     |
+| 415  | Cannabistilbene I  |    Q96P31   |      5.11     |
+| 416  |    Cannflavin B    |    Q30157   |      5.11     |
+| 417  |     Canniprene     |    O75370   |      5.11     |
+| 418  |      Luteolin      |    Q8NI89   |      5.10     |
+| 419  |      Luteolin      |    P35590   |      5.10     |
+| 420  |      Luteolin      |    Q13651   |      5.10     |
+| 421  |     Canniprene     |    A2VED2   |      5.10     |
+| 422  |    Cannflavin B    |  A0A5K1TT58 |      5.10     |
+| 423  |     Canniprene     |    Q8TDF6   |      5.10     |
+| 424  |    Cannflavin B    |    Q30047   |      5.10     |
+| 425  |    Cannflavin C    |    B5A965   |      5.10     |
+| 426  |     Canniprene     |    P41159   |      5.10     |
+| 427  |      Luteolin      |    Q3KP44   |      5.10     |
+| 428  |    Cannflavin C    |    Q9NP59   |      5.10     |
+| 429  | Cannabistilbene I  |    Q9NP59   |      5.10     |
+| 430  |    Cannflavin A    |    A0RZF8   |      5.10     |
+| 431  |    Cannflavin C    |    P05231   |      5.10     |
+| 432  |     Quercetin      |    P14784   |      5.10     |
+| 433  |    Cannflavin A    |    Q96P20   |      5.09     |
+| 434  |     Hesperetin     |    I7HDD9   |      5.09     |
+| 435  |    Cannflavin A    |    C0LTP6   |      5.09     |
+| 436  |      Luteolin      |    A0N5G7   |      5.09     |
+| 437  |    Cannflavin B    |    Q9BX67   |      5.09     |
+| 438  |      Luteolin      |    P01589   |      5.09     |
+| 439  |     Quercetin      |    P49747   |      5.09     |
+| 440  |      Luteolin      |    Q8N4C6   |      5.09     |
+| 441  |     Quercetin      |    P29317   |      5.09     |
+| 442  |     Canniprene     |    Q30201   |      5.09     |
+| 443  |    Cannflavin A    |    A2VED1   |      5.09     |
+| 444  |    Cannflavin A    |    Q14839   |      5.09     |
+| 445  |     Canniprene     |    P06702   |      5.09     |
+| 446  | 6-prenylnaringenin |    P05231   |      5.09     |
+| 447  |     Quercetin      |    A0N5G1   |      5.09     |
+| 448  |     Canniprene     |    Q30048   |      5.09     |
+| 449  |    Cannflavin B    |    P55774   |      5.09     |
+| 450  |      Luteolin      |    P98066   |      5.09     |
+| 451  |      Luteolin      |    P16112   |      5.09     |
+| 452  |    Cannflavin B    |    I7HB73   |      5.09     |
+| 453  |      Luteolin      |    B5A948   |      5.09     |
+| 454  |      Luteolin      |    Q13444   |      5.08     |
+| 455  |     Canniprene     |    I7GY82   |      5.08     |
+| 456  |     Canniprene     |    P17948   |      5.08     |
+| 457  |     Hesperetin     |    Q96P31   |      5.08     |
+| 458  |     Canniprene     |    P08581   |      5.08     |
+| 459  |     Quercetin      |    Q9HC29   |      5.08     |
+| 460  |    Cannflavin A    |    Q4LE39   |      5.08     |
+| 461  |     Quercetin      |    P02786   |      5.07     |
+| 462  |    Cannflavin B    |    Q30201   |      5.07     |
+| 463  |    Cannflavin A    |    A2NVP9   |      5.07     |
+| 464  |     Canniprene     |    A0RZF8   |      5.07     |
+| 465  |     Hesperetin     |    Q9NP59   |      5.07     |
+| 466  |    Cannflavin A    |    Q3KP44   |      5.07     |
+| 467  |     Quercetin      |    Q53HY9   |      5.07     |
+| 468  |     Canniprene     |    Q96P20   |      5.07     |
+| 469  |      Luteolin      |    Q14789   |      5.07     |
+| 470  |      Luteolin      |    P45452   |      5.07     |
+| 471  |     Canniprene     |    C0LTP6   |      5.07     |
+| 472  |      Luteolin      |    Q04912   |      5.07     |
+| 473  |     Quercetin      |    P20810   |      5.07     |
+| 474  |    Cannflavin B    |    O75370   |      5.06     |
+| 475  |     Canniprene     |    Q14839   |      5.06     |
+| 476  |    Cannflavin A    |    A0N5G7   |      5.06     |
+| 477  |     Canniprene     |    A2VED1   |      5.06     |
+| 478  |    Cannflavin A    |    O00421   |      5.06     |
+| 479  |    Cannflavin B    |    Q06187   |      5.06     |
+| 480  |    Cannflavin A    |    Q13651   |      5.06     |
+| 481  |      Luteolin      |    Q99571   |      5.06     |
+| 482  |      Luteolin      |    A0RZG0   |      5.06     |
+| 483  |    Cannflavin B    |    Q96P20   |      5.06     |
+| 484  |     Quercetin      |    P0DJI8   |      5.06     |
+| 485  |    Cannflavin B    |    A2VED2   |      5.06     |
+| 486  |      Luteolin      |    P48960   |      5.06     |
+| 487  |    Cannflavin A    |    P35590   |      5.06     |
+| 488  |    Cannflavin C    |    P43405   |      5.06     |
+| 489  |      Luteolin      |    I7H3Z5   |      5.06     |
+| 490  |    Cannflavin B    |    Q969H8   |      5.06     |
+| 491  |      Luteolin      |    A0RZF9   |      5.06     |
+| 492  |    Cannflavin A    |    P01589   |      5.05     |
+| 493  |    Cannflavin B    |    P80511   |      5.05     |
+| 494  |    Cannflavin C    |    Q5TBB1   |      5.05     |
+| 495  |     Canniprene     |    Q3KP44   |      5.05     |
+| 496  |    Cannflavin B    |    Q30156   |      5.05     |
+| 497  |     Canniprene     |    Q4LE39   |      5.05     |
+| 498  | 6-prenylnaringenin |    A2NVQ0   |      5.05     |
+| 499  |    Cannflavin A    |    Q8N4C6   |      5.05     |
+| 500  |      Luteolin      |    P58397   |      5.05     |
+| 501  |    Cannflavin A    |    Q8NI89   |      5.05     |
+| 502  |    Cannflavin B    |    Q16832   |      5.05     |
+| 503  | Cannabistilbene I  |    P05231   |      5.05     |
+| 504  |    Cannflavin A    |    P98066   |      5.05     |
+| 505  |     Canniprene     |    A2NVP9   |      5.05     |
+| 506  |     Quercetin      |    Q03519   |      5.04     |
+| 507  |    Cannflavin A    |    B5A948   |      5.04     |
+| 508  |    Cannflavin B    |    Q30048   |      5.04     |
+| 509  |    Cannflavin B    |    P06702   |      5.04     |
+| 510  |    Cannflavin B    |    Q8TDF6   |      5.04     |
+| 511  | Cannabistilbene I  |    Q5TBB1   |      5.04     |
+| 512  |     Canniprene     |    A0N5G7   |      5.04     |
+| 513  |      Luteolin      |    Q9HC29   |      5.04     |
+| 514  |    Cannflavin A    |    P16112   |      5.04     |
+| 515  |     Quercetin      |    Q9BZZ2   |      5.04     |
+| 516  |     Quercetin      |    P54760   |      5.04     |
+| 517  |     Canniprene     |    Q13651   |      5.04     |
+| 518  |    Cannflavin A    |    Q13444   |      5.04     |
+| 519  |      Luteolin      |    A5LIN1   |      5.04     |
+| 520  |     Quercetin      |    P08253   |      5.04     |
+| 521  |     Quercetin      |    Q9NRY4   |      5.04     |
+| 522  |     Canniprene     |    O00421   |      5.03     |
+| 523  | 6-prenylnaringenin |    O95973   |      5.03     |
+| 524  |     Quercetin      |    B5A952   |      5.03     |
+| 525  | 6-prenylnaringenin |    P19438   |      5.03     |
+| 526  |     Canniprene     |    P35590   |      5.03     |
+| 527  |    Cannflavin C    |    B5A977   |      5.03     |
+| 528  |     Quercetin      |    P14780   |      5.03     |
+| 529  |     Canniprene     |    P01589   |      5.03     |
+| 530  | Cannabistilbene I  |    B5A977   |      5.03     |
+| 531  |    Cannflavin A    |    Q14789   |      5.03     |
+| 532  | Cannabistilbene I  |    P43405   |      5.03     |
+| 533  |     Quercetin      |    B5A954   |      5.03     |
+| 534  |      Luteolin      |    Q8N6P7   |      5.03     |
+| 535  |     Canniprene     |    Q8N4C6   |      5.03     |
+| 536  |    Cannflavin A    |    A0RZG0   |      5.02     |
+| 537  |     Canniprene     |    Q8NI89   |      5.02     |
+| 538  |    Cannflavin A    |    Q99571   |      5.02     |
+| 539  |     Canniprene     |    P98066   |      5.02     |
+| 540  |    Cannflavin A    |    P48960   |      5.02     |
+| 541  | 6-prenylnaringenin |    I7GSJ6   |      5.02     |
+| 542  |    Cannflavin A    |    A0RZF9   |      5.02     |
+| 543  |     Quercetin      |    B5A930   |      5.02     |
+| 544  |    Cannflavin B    |    Q3KP44   |      5.02     |
+| 545  |     Canniprene     |    B5A948   |      5.02     |
+| 546  |     Quercetin      |    B5A924   |      5.02     |
+| 547  |    Cannflavin C    |    A2NVQ0   |      5.02     |
+| 548  |     Quercetin      |    B5A927   |      5.01     |
+| 549  |    Cannflavin B    |    A0N5G7   |      5.01     |
+| 550  |    Cannflavin A    |    I7H3Z5   |      5.01     |
+| 551  |    Cannflavin A    |    Q9HC29   |      5.01     |
+| 552  |    Cannflavin A    |    Q04912   |      5.01     |
+| 553  |     Canniprene     |    P16112   |      5.01     |
+| 554  |     Canniprene     |    Q14789   |      5.01     |
+| 555  |     Hesperetin     |    Q5TBB1   |      5.01     |
+| 556  |     Hesperetin     |    B5A977   |      5.01     |
+| 557  | 6-prenylnaringenin |    Q02223   |      5.01     |
+| 558  |     Canniprene     |    Q13444   |      5.01     |
+| 559  |    Cannflavin B    |    Q92633   |      5.01     |
+| 560  |     Quercetin      |    B5A929   |      5.01     |
+| 561  | 6-prenylnaringenin |    Q30036   |      5.01     |
+| 562  |    Cannflavin A    |    P45452   |      5.01     |
+| 563  |     Hesperetin     |    P05231   |      5.01     |
+| 564  |    Cannflavin B    |    A0RZF8   |      5.01     |
+| 565  |     Quercetin      |    P01375   |      5.01     |
+| 566  |     Quercetin      |    B5A953   |      5.01     |
+| 567  |     Quercetin      |    Q92805   |      5.01     |
+| 568  |     Quercetin      |    Q13568   |      5.00     |
+| 569  |    Cannflavin A    |    P58397   |      5.00     |
+| 570  |     Canniprene     |    A0RZG0   |      5.00     |
+| 571  |    Cannflavin B    |    P41159   |      5.00     |
+| 572  |     Canniprene     |    Q99571   |      5.00     |
+| 573  |     Canniprene     |    P48960   |      5.00     |
+| 574  |    Cannflavin B    |    P17948   |      5.00     |
+| 575  |    Cannflavin B    |    O00329   |      5.00     |
+| 576  |     Canniprene     |    A0RZF9   |      5.00     |
+| 577  |      Luteolin      |    Q53HY9   |      5.00     |
+| 578  |     Quercetin      |    Q687X5   |      5.00     |
+| 579  |      Luteolin      |    A0N5G1   |      5.00     |
+| 580  |     Quercetin      |    P21709   |      4.99     |
+| 581  |    Cannflavin B    |    I7GY82   |      4.99     |
+| 582  |     Quercetin      |    P54762   |      4.99     |
+| 583  |     Quercetin      |    P09603   |      4.99     |
+| 584  |     Hesperetin     |    P43405   |      4.99     |
+| 585  |      Luteolin      |    P14784   |      4.99     |
+| 586  |     Quercetin      |    P14174   |      4.99     |
+| 587  |     Canniprene     |    Q9HC29   |      4.99     |
+| 588  |    Cannflavin B    |    Q13651   |      4.99     |
+| 589  |     Quercetin      |    B5A936   |      4.99     |
+| 590  |    Cannflavin A    |    Q8N6P7   |      4.99     |
+| 591  |    Cannflavin B    |    P01589   |      4.99     |
+| 592  |    Cannflavin B    |    C0LTP6   |      4.99     |
+| 593  |    Cannflavin A    |    A5LIN1   |      4.99     |
+| 594  | Cannabistilbene I  |    A2NVQ0   |      4.99     |
+| 595  |     Canniprene     |    I7H3Z5   |      4.99     |
+| 596  |     Canniprene     |    Q04912   |      4.99     |
+| 597  | 6-prenylnaringenin |    Q08345   |      4.99     |
+| 598  |    Cannflavin B    |    P08581   |      4.98     |
+| 599  |     Quercetin      |    Q86TM6   |      4.98     |
+| 600  |     Canniprene     |    P45452   |      4.98     |
+| 601  |      Luteolin      |    P49747   |      4.98     |
+| 602  |     Canniprene     |    P58397   |      4.98     |
+| 603  |    Cannflavin C    |    I7GSJ6   |      4.98     |
+| 604  | 6-prenylnaringenin |    P26651   |      4.98     |
+| 605  |      Luteolin      |    P29317   |      4.98     |
+| 606  |     Quercetin      |    B5A934   |      4.98     |
+| 607  |    Cannflavin B    |    Q9HC29   |      4.98     |
+| 608  | 6-prenylnaringenin |    Q6LBF4   |      4.98     |
+| 609  |    Cannflavin B    |    A2VED1   |      4.98     |
+| 610  |    Cannflavin C    |    O95973   |      4.98     |
+| 611  |    Cannflavin B    |    Q14839   |      4.98     |
+| 612  |    Cannflavin C    |    Q96S37   |      4.97     |
+| 613  | 6-prenylnaringenin |    Q4ZHG4   |      4.97     |
+| 614  |     Quercetin      |    Q86YJ6   |      4.97     |
+| 615  |     Quercetin      |    B5A951   |      4.97     |
+| 616  |      Luteolin      |    Q03519   |      4.97     |
+| 617  |      Luteolin      |    P02786   |      4.97     |
+| 618  | 6-prenylnaringenin |    Q96S37   |      4.97     |
+| 619  |     Canniprene     |    Q8N6P7   |      4.97     |
+| 620  | 6-prenylnaringenin |    A0N5G5   |      4.97     |
+| 621  |     Quercetin      |    B5A960   |      4.97     |
+| 622  |     Canniprene     |    A5LIN1   |      4.97     |
+| 623  | Cannabistilbene I  |    O95973   |      4.97     |
+| 624  |    Cannflavin A    |    Q53HY9   |      4.96     |
+| 625  |    Cannflavin B    |    A2NVP9   |      4.96     |
+| 626  |    Cannflavin B    |    P35590   |      4.96     |
+| 627  |     Quercetin      |    B5A933   |      4.96     |
+| 628  |      Luteolin      |    P14174   |      4.96     |
+| 629  |     Quercetin      |    B5A935   |      4.96     |
+| 630  |    Cannflavin B    |    P16112   |      4.96     |
+| 631  |    Cannflavin B    |    P48960   |      4.96     |
+| 632  |    Cannflavin B    |    Q4LE39   |      4.96     |
+| 633  |    Cannflavin A    |    A0N5G1   |      4.96     |
+| 634  |      Luteolin      |    Q9BZZ2   |      4.96     |
+| 635  | 6-prenylnaringenin |  A0A1S6KJG4 |      4.96     |
+| 636  | 6-prenylnaringenin |    P22301   |      4.96     |
+| 637  |     Quercetin      |    B5A931   |      4.96     |
+| 638  |    Cannflavin B    |    P98066   |      4.96     |
+| 639  | Cannabistilbene I  |    I7GSJ6   |      4.96     |
+| 640  |     Hesperetin     |    A2NVQ0   |      4.96     |
+| 641  |    Cannflavin B    |    Q8N4C6   |      4.96     |
+| 642  |     Quercetin      |    B5A939   |      4.95     |
+| 643  |    Cannflavin A    |    P14784   |      4.95     |
+| 644  |     Quercetin      |    B5A937   |      4.95     |
+| 645  |    Cannflavin B    |    A0RZG0   |      4.95     |
+| 646  |    Cannflavin C    |    Q30036   |      4.95     |
+| 647  |      Luteolin      |    Q9NRY4   |      4.95     |
+| 648  | 6-prenylnaringenin |    P08887   |      4.95     |
+| 649  |      Luteolin      |    B5A952   |      4.95     |
+| 650  | 6-prenylnaringenin |    Q9UP52   |      4.95     |
+| 651  |    Cannflavin B    |    B5A948   |      4.95     |
+| 652  |    Cannflavin B    |    A0RZF9   |      4.95     |
+| 653  |    Cannflavin B    |    Q14789   |      4.95     |
+| 654  |    Cannflavin B    |    Q99571   |      4.95     |
+| 655  |     Quercetin      |    Q96ER3   |      4.95     |
+| 656  |     Quercetin      |    G1UCX3   |      4.95     |
+| 657  |      Luteolin      |    P0DJI8   |      4.95     |
+| 658  |     Quercetin      |    Q9C000   |      4.95     |
+| 659  |     Quercetin      |    Q30035   |      4.94     |
+| 660  |     Canniprene     |    Q53HY9   |      4.94     |
+| 661  | 6-prenylnaringenin |    B5A928   |      4.94     |
+| 662  | Cannabistilbene I  |    P19438   |      4.94     |
+| 663  |    Cannflavin B    |    Q13444   |      4.94     |
+| 664  |    Cannflavin A    |    P49747   |      4.94     |
+| 665  |     Hesperetin     |    O95973   |      4.94     |
+| 666  |     Quercetin      |    Q5VWK5   |      4.94     |
+| 667  | Cannabistilbene I  |    Q30036   |      4.94     |
+| 668  |    Cannflavin B    |    Q8NI89   |      4.94     |
+| 669  |    Cannflavin C    |    Q08345   |      4.94     |
+| 670  |    Cannflavin A    |    Q03519   |      4.94     |
+| 671  |     Quercetin      |    O14802   |      4.94     |
+| 672  |     Quercetin      |    B5A938   |      4.94     |
+| 673  |     Canniprene     |    A0N5G1   |      4.94     |
+| 674  |      Luteolin      |    B5A954   |      4.94     |
+| 675  |      Luteolin      |    P20810   |      4.94     |
+| 676  |    Cannflavin A    |    P29317   |      4.94     |
+| 677  |     Quercetin      |    Q16552   |      4.94     |
+| 678  |    Cannflavin A    |    P14174   |      4.94     |
+| 679  |     Hesperetin     |    P19438   |      4.94     |
+| 680  | Cannabistilbene I  |    Q02223   |      4.93     |
+| 681  | Cannabistilbene I  |    Q96S37   |      4.93     |
+| 682  |    Cannflavin A    |    P02786   |      4.93     |
+| 683  |      Luteolin      |    B5A930   |      4.93     |
+| 684  | 6-prenylnaringenin |    Q9UKP4   |      4.93     |
+| 685  |     Quercetin      |    Q12841   |      4.93     |
+| 686  |      Luteolin      |    B5A927   |      4.93     |
+| 687  |     Canniprene     |    P14784   |      4.93     |
+| 688  |     Quercetin      |    P50281   |      4.93     |
+| 689  | 6-prenylnaringenin |    O60880   |      4.93     |
+| 690  |    Cannflavin C    |    Q02223   |      4.93     |
+| 691  |    Cannflavin A    |    Q9BZZ2   |      4.93     |
+| 692  |    Cannflavin B    |    O00421   |      4.93     |
+| 693  |     Hesperetin     |    I7GSJ6   |      4.93     |
+| 694  |     Quercetin      |    A0N5G2   |      4.93     |
+| 695  | 6-prenylnaringenin |    P10721   |      4.92     |
+| 696  |    Cannflavin C    |    P19438   |      4.92     |
+| 697  |     Quercetin      |    K4RH61   |      4.92     |
+| 698  | 6-prenylnaringenin |    P01584   |      4.92     |
+| 699  |      Luteolin      |    B5A929   |      4.92     |
+| 700  |     Hesperetin     |    Q02223   |      4.92     |
+| 701  |      Luteolin      |    B5A953   |      4.92     |
+| 702  |     Canniprene     |    P14174   |      4.92     |
+| 703  |    Cannflavin C    |    Q6LBF4   |      4.92     |
+| 704  |      Luteolin      |    Q13568   |      4.92     |
+| 705  |    Cannflavin B    |    I7H3Z5   |      4.92     |
+| 706  |    Cannflavin B    |    P14174   |      4.92     |
+| 707  |     Canniprene     |    P49747   |      4.92     |
+| 708  |     Quercetin      |    Q9NV23   |      4.92     |
+| 709  |     Canniprene     |    Q03519   |      4.92     |
+| 710  |     Quercetin      |    Q8WVB3   |      4.92     |
+| 711  |     Canniprene     |    P29317   |      4.92     |
+| 712  |    Cannflavin A    |    B5A952   |      4.92     |
+| 713  |    Cannflavin A    |    Q9NRY4   |      4.92     |
+| 714  | Cannabistilbene I  |    Q08345   |      4.92     |
+| 715  |    Cannflavin B    |    Q8N6P7   |      4.92     |
+| 716  |     Hesperetin     |    Q30036   |      4.92     |
+| 717  |     Quercetin      |    P20333   |      4.92     |
+| 718  |      Luteolin      |    Q687X5   |      4.91     |
+| 719  | 6-prenylnaringenin |    Q8WUM9   |      4.91     |
+| 720  |      Luteolin      |    P09603   |      4.91     |
+| 721  |     Canniprene     |    P02786   |      4.91     |
+| 722  | Cannabistilbene I  |    Q6LBF4   |      4.91     |
+| 723  |    Cannflavin C    |    P07333   |      4.91     |
+| 724  |      Luteolin      |    P14780   |      4.91     |
+| 725  |      Luteolin      |    P54760   |      4.91     |
+| 726  |    Cannflavin C    |    P26651   |      4.91     |
+| 727  |    Cannflavin A    |    P0DJI8   |      4.91     |
+| 728  |    Cannflavin B    |    P58397   |      4.91     |
+| 729  | 6-prenylnaringenin |    P07333   |      4.91     |
+| 730  |      Luteolin      |    B5A936   |      4.91     |
+| 731  |     Quercetin      |    Q9NY25   |      4.91     |
+| 732  |      Luteolin      |    Q9C000   |      4.91     |
+| 733  | Cannabistilbene I  |    P26651   |      4.90     |
+| 734  |     Canniprene     |    Q9BZZ2   |      4.90     |
+| 735  |     Quercetin      |    Q86VB7   |      4.90     |
+| 736  |     Quercetin      |    P05109   |      4.90     |
+| 737  |    Cannflavin B    |    Q53HY9   |      4.90     |
+| 738  |    Cannflavin C    |    A0N5G5   |      4.90     |
+| 739  |    Cannflavin A    |    B5A927   |      4.90     |
+| 740  |    Cannflavin A    |    B5A954   |      4.90     |
+| 741  |    Cannflavin B    |    Q04912   |      4.90     |
+| 742  | 6-prenylnaringenin |    P55774   |      4.90     |
+| 743  |      Luteolin      |    B5A924   |      4.90     |
+| 744  |    Cannflavin C    |  A0A1S6KJG4 |      4.90     |
+| 745  |    Cannflavin A    |    B5A930   |      4.90     |
+| 746  |     Canniprene     |    B5A952   |      4.90     |
+| 747  |    Cannflavin B    |    A5LIN1   |      4.90     |
+| 748  |     Canniprene     |    Q9NRY4   |      4.90     |
+| 749  |     Hesperetin     |    Q96S37   |      4.90     |
+| 750  | Cannabistilbene I  |    A0N5G5   |      4.90     |
+| 751  |     Quercetin      |    B5A959   |      4.90     |
+| 752  |      Luteolin      |    P01375   |      4.89     |
+| 753  |      Luteolin      |    Q86TM6   |      4.89     |
+| 754  |    Cannflavin C    |    Q4ZHG4   |      4.89     |
+| 755  |    Cannflavin A    |    P20810   |      4.89     |
+| 756  |      Luteolin      |    B5A934   |      4.89     |
+| 757  | 6-prenylnaringenin |    Q30047   |      4.89     |
+| 758  | Cannabistilbene I  |  A0A1S6KJG4 |      4.89     |
+| 759  | Cannabistilbene I  |    Q4ZHG4   |      4.89     |
+| 760  |      Luteolin      |    P21709   |      4.89     |
+| 761  | 6-prenylnaringenin |    Q30201   |      4.89     |
+| 762  |      Luteolin      |    P54762   |      4.89     |
+| 763  |    Cannflavin C    |  A0A0A1I7H6 |      4.89     |
+| 764  |    Cannflavin A    |    Q13568   |      4.89     |
+| 765  | 6-prenylnaringenin |  A0A0A1I7H6 |      4.89     |
+| 766  | 6-prenylnaringenin |    A0N5G4   |      4.89     |
+| 767  | 6-prenylnaringenin |    Q96P20   |      4.89     |
+| 768  |      Luteolin      |    Q92805   |      4.89     |
+| 769  |    Cannflavin A    |    B5A929   |      4.89     |
+| 770  |    Cannflavin C    |    Q9MYB9   |      4.89     |
+| 771  |     Quercetin      |    P55085   |      4.89     |
+| 772  |     Hesperetin     |    P26651   |      4.89     |
+| 773  |     Quercetin      |    Q6DN72   |      4.89     |
+| 774  |    Cannflavin A    |    B5A953   |      4.89     |
+| 775  | 6-prenylnaringenin |    Q9MYB9   |      4.89     |
+| 776  |     Hesperetin     |    Q6LBF4   |      4.89     |
+| 777  |     Canniprene     |    P0DJI8   |      4.88     |
+| 778  | Cannabistilbene I  |    P22301   |      4.88     |
+| 779  |     Quercetin      |    Q9NSU2   |      4.88     |
+| 780  |     Hesperetin     |    Q08345   |      4.88     |
+| 781  | 6-prenylnaringenin |    Q9BX67   |      4.88     |
+| 782  |    Cannflavin C    |    P22301   |      4.88     |
+| 783  |    Cannflavin A    |    Q687X5   |      4.88     |
+| 784  |     Quercetin      |    Q8IUL8   |      4.88     |
+| 785  |      Luteolin      |    A0N5G2   |      4.88     |
+| 786  |    Cannflavin B    |    A0N5G1   |      4.88     |
+| 787  |    Cannflavin A    |    P09603   |      4.88     |
+| 788  |    Cannflavin C    |    Q9UP52   |      4.88     |
+| 789  |     Quercetin      |    P02766   |      4.88     |
+| 790  |     Canniprene     |    B5A927   |      4.88     |
+| 791  |    Cannflavin B    |    Q03519   |      4.88     |
+| 792  |     Quercetin      |    Q9BUI4   |      4.88     |
+| 793  |      Luteolin      |    B5A933   |      4.88     |
+| 794  |      Luteolin      |    B5A935   |      4.88     |
+| 795  | 6-prenylnaringenin |    E1CJT3   |      4.88     |
+| 796  | Cannabistilbene I  |    P08887   |      4.88     |
+| 797  |     Canniprene     |    B5A930   |      4.88     |
+| 798  |    Cannflavin C    |    P08887   |      4.88     |
+| 799  | Cannabistilbene I  |    Q9UP52   |      4.88     |
+| 800  |      Luteolin      |    B5A931   |      4.88     |
+| 801  |     Quercetin      |    Q08334   |      4.88     |
+| 802  |     Hesperetin     |    A0N5G5   |      4.87     |
+| 803  |     Canniprene     |    B5A954   |      4.87     |
+| 804  |      Luteolin      |    Q8WVB3   |      4.87     |
+| 805  |    Cannflavin A    |    B5A936   |      4.87     |
+| 806  |    Cannflavin A    |    Q9C000   |      4.87     |
+| 807  |      Luteolin      |    B5A951   |      4.87     |
+| 808  | Cannabistilbene I  |    P07333   |      4.87     |
+| 809  |     Canniprene     |    P20810   |      4.87     |
+| 810  |      Luteolin      |    B5A937   |      4.87     |
+| 811  |    Cannflavin B    |    P14784   |      4.87     |
+| 812  |      Luteolin      |    B5A939   |      4.87     |
+| 813  | Cannabistilbene I  |    B5A928   |      4.87     |
+| 814  |     Hesperetin     |    Q4ZHG4   |      4.87     |
+| 815  |     Quercetin      |    A0N5G3   |      4.87     |
+| 816  |    Cannflavin C    |    B5A928   |      4.87     |
+| 817  | 6-prenylnaringenin |    P35968   |      4.87     |
+| 818  |     Hesperetin     |    P22301   |      4.87     |
+| 819  |      Luteolin      |    Q96ER3   |      4.87     |
+| 820  |      Luteolin      |    G1UCX3   |      4.87     |
+| 821  |     Canniprene     |    Q13568   |      4.87     |
+| 822  |    Cannflavin C    |    Q8WUM9   |      4.87     |
+| 823  |     Hesperetin     |  A0A1S6KJG4 |      4.87     |
+| 824  |      Luteolin      |    P08253   |      4.87     |
+| 825  |      Luteolin      |    B5A960   |      4.87     |
+| 826  | 6-prenylnaringenin |    Q13546   |      4.87     |
+| 827  |     Canniprene     |    B5A929   |      4.87     |
+| 828  |    Cannflavin B    |    Q9BZZ2   |      4.87     |
+| 829  |      Luteolin      |    Q30035   |      4.87     |
+| 830  |    Cannflavin A    |    P14780   |      4.86     |
+| 831  |     Quercetin      |    B5A961   |      4.86     |
+| 832  |     Quercetin      |    B5A941   |      4.86     |
+| 833  | 6-prenylnaringenin |    P01374   |      4.86     |
+| 834  |      Luteolin      |    Q86YJ6   |      4.86     |
+| 835  |     Canniprene     |    Q687X5   |      4.86     |
+| 836  |      Luteolin      |    Q16552   |      4.86     |
+| 837  |    Cannflavin A    |    P54760   |      4.86     |
+| 838  |     Canniprene     |    B5A953   |      4.86     |
+| 839  |     Quercetin      |    Q9HCJ1   |      4.86     |
+| 840  |     Quercetin      |    Q14765   |      4.86     |
+| 841  |    Cannflavin C    |    P01584   |      4.86     |
+| 842  |    Cannflavin C    |    O60880   |      4.86     |
+| 843  |    Cannflavin A    |    B5A934   |      4.86     |
+| 844  |    Cannflavin A    |    Q86TM6   |      4.86     |
+| 845  | Cannabistilbene I  |    O60880   |      4.86     |
+| 846  |     Canniprene     |    P09603   |      4.86     |
+| 847  |     Hesperetin     |    P08887   |      4.86     |
+| 848  |      Luteolin      |    B5A938   |      4.86     |
+| 849  |    Cannflavin A    |    B5A924   |      4.86     |
+| 850  |     Quercetin      |    Q9BYX4   |      4.86     |
+| 851  |      Luteolin      |    O14802   |      4.86     |
+| 852  |    Cannflavin B    |    P49747   |      4.86     |
+| 853  |      Luteolin      |    Q5VWK5   |      4.85     |
+| 854  |     Quercetin      |    P19823   |      4.85     |
+| 855  | Cannabistilbene I  |    P01584   |      4.85     |
+| 856  |    Cannflavin B    |    B5A952   |      4.85     |
+| 857  | Cannabistilbene I  |  A0A0A1I7H6 |      4.85     |
+| 858  |    Cannflavin B    |    P29317   |      4.85     |
+| 859  |     Hesperetin     |    Q9UP52   |      4.85     |
+| 860  |    Cannflavin A    |    A0N5G2   |      4.85     |
+| 861  |     Quercetin      |    O15553   |      4.85     |
+| 862  |     Quercetin      |    Q8TCW4   |      4.85     |
+| 863  |     Canniprene     |    B5A936   |      4.85     |
+| 864  |    Cannflavin B    |    P45452   |      4.85     |
+| 865  |    Cannflavin A    |    P21709   |      4.85     |
+| 866  | Cannabistilbene I  |    Q9MYB9   |      4.85     |
+| 867  |    Cannflavin A    |    P01375   |      4.85     |
+| 868  |    Cannflavin B    |    P02786   |      4.85     |
+| 869  |    Cannflavin A    |    P54762   |      4.85     |
+| 870  |     Canniprene     |    Q9C000   |      4.85     |
+| 871  |     Hesperetin     |    B5A928   |      4.85     |
+| 872  |     Quercetin      |    B5A943   |      4.85     |
+| 873  |    Cannflavin B    |    Q9NRY4   |      4.85     |
+| 874  | Cannabistilbene I  |    Q8WUM9   |      4.85     |
+| 875  |    Cannflavin C    |    E1CJT3   |      4.85     |
+| 876  | Cannabistilbene I  |    Q9UKP4   |      4.85     |
+| 877  |    Cannflavin A    |    Q92805   |      4.85     |
+| 878  |    Cannflavin A    |    B5A935   |      4.85     |
+| 879  |    Cannflavin A    |    B5A933   |      4.85     |
+| 880  | 6-prenylnaringenin |    O75370   |      4.85     |
+| 881  |    Cannflavin A    |    B5A931   |      4.84     |
+| 882  |    Cannflavin C    |    Q9UKP4   |      4.84     |
+| 883  |     Canniprene     |    P14780   |      4.84     |
+| 884  |    Cannflavin A    |    Q8WVB3   |      4.84     |
+| 885  |      Luteolin      |    Q9NV23   |      4.84     |
+| 886  |     Canniprene     |    P54760   |      4.84     |
+| 887  |      Luteolin      |    Q86VB7   |      4.84     |
+| 888  | 6-prenylnaringenin |    Q3KP44   |      4.84     |
+| 889  | 6-prenylnaringenin |    A0N5G7   |      4.84     |
+| 890  |     Canniprene     |    B5A934   |      4.84     |
+| 891  |    Cannflavin A    |    B5A937   |      4.84     |
+| 892  |     Hesperetin     |    O60880   |      4.84     |
+| 893  |     Canniprene     |    B5A924   |      4.84     |
+| 894  | 6-prenylnaringenin |    P01911   |      4.84     |
+| 895  |    Cannflavin A    |    Q96ER3   |      4.84     |
+| 896  |    Cannflavin A    |    G1UCX3   |      4.84     |
+| 897  |    Cannflavin B    |    B5A927   |      4.84     |
+| 898  |    Cannflavin A    |    B5A939   |      4.84     |
+| 899  |     Canniprene     |    Q86TM6   |      4.84     |
+| 900  |     Quercetin      |    P02794   |      4.84     |
+| 901  | 6-prenylnaringenin |    I7HB73   |      4.84     |
+| 902  | 6-prenylnaringenin |    A2VED2   |      4.84     |
+| 903  |    Cannflavin A    |    Q30035   |      4.84     |
+| 904  |     Hesperetin     |    P07333   |      4.84     |
+| 905  |      Luteolin      |    P50281   |      4.84     |
+| 906  |    Cannflavin A    |    B5A951   |      4.83     |
+| 907  |    Cannflavin C    |    P01911   |      4.83     |
+| 908  |     Canniprene     |    A0N5G2   |      4.83     |
+| 909  |     Quercetin      |    O75339   |      4.83     |
+| 910  |     Hesperetin     |    P01584   |      4.83     |
+| 911  | 6-prenylnaringenin |    Q9HBA0   |      4.83     |
+| 912  | 6-prenylnaringenin |    P09619   |      4.83     |
+| 913  |     Quercetin      |    O75792   |      4.83     |
+| 914  |    Cannflavin A    |    Q16552   |      4.83     |
+| 915  |      Luteolin      |    K4RH61   |      4.83     |
+| 916  |     Quercetin      |    B5A982   |      4.83     |
+| 917  |     Canniprene     |    P54762   |      4.83     |
+| 918  |     Canniprene     |    P01375   |      4.83     |
+| 919  |     Hesperetin     |    Q9UKP4   |      4.83     |
+| 920  |     Canniprene     |    Q92805   |      4.83     |
+| 921  |      Luteolin      |    P20333   |      4.83     |
+| 922  |    Cannflavin A    |    B5A960   |      4.83     |
+| 923  | 6-prenylnaringenin |    Q30048   |      4.83     |
+| 924  |    Cannflavin C    |    A0N5G4   |      4.83     |
+| 925  | 6-prenylnaringenin |  A0A5K1TT58 |      4.83     |
+| 926  |      Luteolin      |    Q12841   |      4.83     |
+| 927  | Cannabistilbene I  |    P55774   |      4.83     |
+| 928  |    Cannflavin C    |    P55774   |      4.83     |
+| 929  |     Canniprene     |    P21709   |      4.83     |
+| 930  |     Canniprene     |    B5A935   |      4.83     |
+| 931  |    Cannflavin C    |    Q30047   |      4.83     |
+| 932  |     Canniprene     |    B5A933   |      4.83     |
+| 933  |    Cannflavin A    |    Q86YJ6   |      4.83     |
+| 934  |    Cannflavin A    |    B5A938   |      4.83     |
+| 935  |    Cannflavin B    |    Q9C000   |      4.83     |
+| 936  |    Cannflavin B    |    Q687X5   |      4.82     |
+| 937  |     Canniprene     |    B5A931   |      4.82     |
+| 938  |    Cannflavin C    |    Q13546   |      4.82     |
+| 939  | Cannabistilbene I  |    Q30201   |      4.82     |
+| 940  |    Cannflavin B    |    Q13568   |      4.82     |
+| 941  |     Quercetin      |    P41240   |      4.82     |
+| 942  |     Hesperetin     |    Q8WUM9   |      4.82     |
+| 943  | Cannabistilbene I  |    E1CJT3   |      4.82     |
+| 944  |    Cannflavin A    |    Q5VWK5   |      4.82     |
+| 945  |    Cannflavin B    |    B5A954   |      4.82     |
+| 946  | Cannabistilbene I  |    A0N5G4   |      4.82     |
+| 947  | Cannabistilbene I  |    Q30047   |      4.82     |
+| 948  |     Canniprene     |    Q8WVB3   |      4.82     |
+| 949  | 6-prenylnaringenin |    P06702   |      4.82     |
+| 950  |    Cannflavin C    |    P01374   |      4.82     |
+| 951  |    Cannflavin B    |    B5A930   |      4.82     |
+| 952  |     Quercetin      |    Q8NIA0   |      4.82     |
+| 953  |     Quercetin      |    Q9H015   |      4.82     |
+| 954  |    Cannflavin C    |    Q9BX67   |      4.82     |
+| 955  |    Cannflavin A    |    O14802   |      4.82     |
+| 956  |      Luteolin      |    Q6DN72   |      4.82     |
+| 957  |     Quercetin      |    B5A942   |      4.82     |
+| 958  |    Cannflavin B    |    P0DJI8   |      4.82     |
+| 959  |     Hesperetin     |  A0A0A1I7H6 |      4.82     |
+| 960  |     Quercetin      |    Q8TCW3   |      4.82     |
+| 961  |     Canniprene     |    Q30035   |      4.82     |
+| 962  | 6-prenylnaringenin |    Q9HC29   |      4.82     |
+| 963  |      Luteolin      |    Q9NY25   |      4.82     |
+| 964  | 6-prenylnaringenin |    Q30157   |      4.82     |
+| 965  |     Canniprene     |    B5A937   |      4.82     |
+| 966  |      Luteolin      |    B5A959   |      4.82     |
+| 967  |     Canniprene     |    Q96ER3   |      4.82     |
+| 968  |     Canniprene     |    G1UCX3   |      4.82     |
+| 969  |     Hesperetin     |    Q9MYB9   |      4.82     |
+| 970  |    Cannflavin C    |    P35968   |      4.82     |
+| 971  |     Canniprene     |    B5A939   |      4.82     |
+| 972  | Cannabistilbene I  |    Q9BX67   |      4.82     |
+| 973  |     Canniprene     |    B5A951   |      4.82     |
+| 974  |     Quercetin      |    Q93099   |      4.82     |
+| 975  |     Quercetin      |    P09326   |      4.82     |
+| 976  |    Cannflavin B    |    P09603   |      4.81     |
+| 977  |    Cannflavin A    |    Q9NV23   |      4.81     |
+| 978  | 6-prenylnaringenin |    Q8TDF6   |      4.81     |
+| 979  |    Cannflavin C    |    Q30201   |      4.81     |
+| 980  | Cannabistilbene I  |    Q96P20   |      4.81     |
+| 981  |     Hesperetin     |    Q30201   |      4.81     |
+| 982  |     Quercetin      |    P31994   |      4.81     |
+| 983  |    Cannflavin A    |    P08253   |      4.81     |
+| 984  |     Quercetin      |    Q92743   |      4.81     |
+| 985  |    Cannflavin B    |    B5A953   |      4.81     |
+| 986  |     Canniprene     |    Q16552   |      4.81     |
+| 987  |     Quercetin      |    P11021   |      4.81     |
+| 988  |    Cannflavin A    |    Q86VB7   |      4.81     |
+| 989  |    Cannflavin B    |    B5A929   |      4.81     |
+| 990  |     Hesperetin     |    P55774   |      4.81     |
+| 991  |     Canniprene     |    B5A960   |      4.81     |
+| 992  |      Luteolin      |    Q8IUL8   |      4.81     |
+| 993  |     Hesperetin     |    Q96P20   |      4.81     |
+| 994  |    Cannflavin B    |    A0N5G2   |      4.81     |
+| 995  |     Canniprene     |    Q86YJ6   |      4.81     |
+| 996  |     Quercetin      |    B5A940   |      4.81     |
+| 997  |     Quercetin      |    P53621   |      4.81     |
+| 998  |     Canniprene     |    B5A938   |      4.81     |
+| 999  |      Luteolin      |    Q08334   |      4.81     |
+| 1000 |      Luteolin      |    P05109   |      4.81     |
+| 1001 | Cannabistilbene I  |    P01911   |      4.80     |
+| 1002 | Cannabistilbene I  |    P01374   |      4.80     |
+| 1003 |     Hesperetin     |    Q30047   |      4.80     |
+| 1004 |    Cannflavin C    |    P09619   |      4.80     |
+| 1005 |     Canniprene     |    Q5VWK5   |      4.80     |
+| 1006 |    Cannflavin A    |    P50281   |      4.80     |
+| 1007 | Cannabistilbene I  |    Q13546   |      4.80     |
+| 1008 |      Luteolin      |    A0N5G3   |      4.80     |
+| 1009 |     Canniprene     |    O14802   |      4.80     |
+| 1010 |    Cannflavin B    |    P20810   |      4.80     |
+| 1011 |     Hesperetin     |    A0N5G4   |      4.80     |
+| 1012 | 6-prenylnaringenin |    Q969H8   |      4.80     |
+| 1013 |    Cannflavin B    |    B5A936   |      4.80     |
+| 1014 |    Cannflavin C    |    I7HB73   |      4.80     |
+| 1015 |     Quercetin      |    Q9BV73   |      4.80     |
+| 1016 |      Luteolin      |    P55085   |      4.80     |
+| 1017 |      Luteolin      |    P19823   |      4.80     |
+| 1018 |    Cannflavin A    |    K4RH61   |      4.80     |
+| 1019 |      Luteolin      |    B5A941   |      4.80     |
+| 1020 |     Quercetin      |    Q96GV9   |      4.80     |
+| 1021 |     Hesperetin     |    Q9BX67   |      4.80     |
+| 1022 | Cannabistilbene I  |    P35968   |      4.80     |
+| 1023 |     Quercetin      |    Q9Y2G2   |      4.80     |
+| 1024 |    Cannflavin C    |  A0A5K1TT58 |      4.80     |
+| 1025 |      Luteolin      |    Q14765   |      4.80     |
+| 1026 |    Cannflavin A    |    P20333   |      4.80     |
+| 1027 |    Cannflavin B    |    Q8WVB3   |      4.80     |
+| 1028 |      Luteolin      |    Q9NSU2   |      4.80     |
+| 1029 |      Luteolin      |    Q9BUI4   |      4.80     |
+| 1030 |     Canniprene     |    Q9NV23   |      4.80     |
+| 1031 |     Quercetin      |    B5A963   |      4.79     |
+| 1032 |    Cannflavin C    |    Q30157   |      4.79     |
+| 1033 |    Cannflavin A    |    Q12841   |      4.79     |
+| 1034 |    Cannflavin C    |    Q96P20   |      4.79     |
+| 1035 |     Hesperetin     |    E1CJT3   |      4.79     |
+| 1036 |     Quercetin      |    O14879   |      4.79     |
+| 1037 |    Cannflavin A    |    Q6DN72   |      4.79     |
+| 1038 |     Canniprene     |    Q86VB7   |      4.79     |
+| 1039 |     Quercetin      |    Q29980   |      4.79     |
+| 1040 |      Luteolin      |    Q9BYX4   |      4.79     |
+| 1041 |     Quercetin      |    Q8TCW2   |      4.79     |
+| 1042 |     Quercetin      |    Q9UP07   |      4.79     |
+| 1043 |    Cannflavin A    |    B5A959   |      4.79     |
+| 1044 |      Luteolin      |    Q9HCJ1   |      4.79     |
+| 1045 |     Quercetin      |    P18510   |      4.79     |
+| 1046 |     Quercetin      |    B5A978   |      4.79     |
+| 1047 |     Quercetin      |    Q8IV20   |      4.79     |
+| 1048 |    Cannflavin B    |    B5A934   |      4.79     |
+| 1049 |     Quercetin      |    B5A958   |      4.79     |
+| 1050 |    Cannflavin A    |    Q9NY25   |      4.79     |
+| 1051 |      Luteolin      |    O15553   |      4.79     |
+| 1052 | 6-prenylnaringenin |    A0RZF8   |      4.79     |
+| 1053 |      Luteolin      |    B5A943   |      4.79     |
+| 1054 |     Canniprene     |    P08253   |      4.79     |
+| 1055 |     Quercetin      |    P78536   |      4.78     |
+| 1056 | 6-prenylnaringenin |    P80511   |      4.78     |
+| 1057 | 6-prenylnaringenin |    P01589   |      4.78     |
+| 1058 |    Cannflavin C    |    Q9HBA0   |      4.78     |
+| 1059 |    Cannflavin B    |    Q86TM6   |      4.78     |
+| 1060 |    Cannflavin A    |    Q8IUL8   |      4.78     |
+| 1061 |     Canniprene     |    P50281   |      4.78     |
+| 1062 |    Cannflavin C    |    O75370   |      4.78     |
+| 1063 | Cannabistilbene I  |    I7HB73   |      4.78     |
+| 1064 |      Luteolin      |    B5A961   |      4.78     |
+| 1065 |      Luteolin      |    P02766   |      4.78     |
+| 1066 |    Cannflavin A    |    Q08334   |      4.78     |
+| 1067 |     Canniprene     |    K4RH61   |      4.78     |
+| 1068 | Cannabistilbene I  |    O75370   |      4.78     |
+| 1069 |    Cannflavin B    |    B5A935   |      4.78     |
+| 1070 |    Cannflavin B    |    Q96ER3   |      4.78     |
+| 1071 |    Cannflavin B    |    G1UCX3   |      4.78     |
+| 1072 |     Canniprene     |    P20333   |      4.78     |
+| 1073 |    Cannflavin B    |    B5A924   |      4.78     |
+| 1074 |     Hesperetin     |    P01374   |      4.78     |
+| 1075 | Cannabistilbene I  |    A0N5G7   |      4.78     |
+| 1076 |     Canniprene     |    Q12841   |      4.78     |
+| 1077 | 6-prenylnaringenin |    Q30156   |      4.78     |
+| 1078 |    Cannflavin B    |    Q16552   |      4.78     |
+| 1079 |    Cannflavin B    |    B5A933   |      4.78     |
+| 1080 | Cannabistilbene I  |    P09619   |      4.78     |
+| 1081 | Cannabistilbene I  |    Q3KP44   |      4.77     |
+| 1082 |    Cannflavin B    |    B5A931   |      4.77     |
+| 1083 |    Cannflavin A    |    A0N5G3   |      4.77     |
+| 1084 |     Canniprene     |    Q6DN72   |      4.77     |
+| 1085 |    Cannflavin C    |    Q3KP44   |      4.77     |
+| 1086 |     Hesperetin     |    P01911   |      4.77     |
+| 1087 |    Cannflavin A    |    P05109   |      4.77     |
+| 1088 | Cannabistilbene I  |  A0A5K1TT58 |      4.77     |
+| 1089 |     Hesperetin     |    Q13546   |      4.77     |
+| 1090 | 6-prenylnaringenin |    Q13651   |      4.77     |
+| 1091 |    Cannflavin A    |    B5A941   |      4.77     |
+| 1092 |    Cannflavin A    |    P19823   |      4.77     |
+| 1093 |    Cannflavin C    |    A0N5G7   |      4.77     |
+| 1094 |    Cannflavin A    |    Q14765   |      4.77     |
+| 1095 |    Cannflavin B    |    P01375   |      4.77     |
+| 1096 |     Canniprene     |    B5A959   |      4.77     |
+| 1097 |     Quercetin      |    P50148   |      4.77     |
+| 1098 |     Hesperetin     |    P35968   |      4.77     |
+| 1099 | 6-prenylnaringenin |    P14174   |      4.77     |
+| 1100 |    Cannflavin B    |    P54762   |      4.77     |
+| 1101 |    Cannflavin B    |    Q92805   |      4.77     |
+| 1102 |    Cannflavin B    |    P21709   |      4.77     |
+| 1103 |    Cannflavin C    |    A2VED2   |      4.77     |
+| 1104 |     Quercetin      |    B5A962   |      4.77     |
+| 1105 |    Cannflavin B    |    P54760   |      4.77     |
+| 1106 |    Cannflavin B    |    B5A937   |      4.77     |
+| 1107 |      Luteolin      |    O75339   |      4.77     |
+| 1108 |    Cannflavin C    |    Q30048   |      4.77     |
+| 1109 | Cannabistilbene I  |    Q30157   |      4.77     |
+| 1110 |      Luteolin      |    O75792   |      4.77     |
+| 1111 |     Canniprene     |    Q9NY25   |      4.77     |
+| 1112 | Cannabistilbene I  |    A2VED2   |      4.77     |
+| 1113 |    Cannflavin B    |    Q30035   |      4.77     |
+| 1114 | Cannabistilbene I  |    P10721   |      4.77     |
+| 1115 |    Cannflavin A    |    P55085   |      4.77     |
+| 1116 | Cannabistilbene I  |    Q30048   |      4.76     |
+| 1117 |    Cannflavin B    |    Q86VB7   |      4.76     |
+| 1118 | Cannabistilbene I  |    Q9HBA0   |      4.76     |
+| 1119 |     Quercetin      |    Q8TDP1   |      4.76     |
+| 1120 |    Cannflavin A    |    Q9BYX4   |      4.76     |
+| 1121 |     Hesperetin     |    A0N5G7   |      4.76     |
+| 1122 |    Cannflavin B    |    B5A939   |      4.76     |
+| 1123 |    Cannflavin A    |    Q9BUI4   |      4.76     |
+| 1124 |    Cannflavin A    |    Q9NSU2   |      4.76     |
+| 1125 |     Quercetin      |    Q9HB29   |      4.76     |
+| 1126 |     Canniprene     |    Q8IUL8   |      4.76     |
+| 1127 |      Luteolin      |    Q9H015   |      4.76     |
+| 1128 |      Luteolin      |    Q8TCW4   |      4.76     |
+| 1129 |     Hesperetin     |    O75370   |      4.76     |
+| 1130 |     Hesperetin     |    Q3KP44   |      4.76     |
+| 1131 |    Cannflavin C    |    P06702   |      4.76     |
+| 1132 |    Cannflavin A    |    O15553   |      4.76     |
+| 1133 |     Canniprene     |    Q08334   |      4.76     |
+| 1134 |    Cannflavin B    |    B5A951   |      4.76     |
+| 1135 |    Cannflavin A    |    B5A943   |      4.76     |
+| 1136 |    Cannflavin C    |    Q969H8   |      4.76     |
+| 1137 |    Cannflavin A    |    Q9HCJ1   |      4.76     |
+| 1138 |      Luteolin      |    B5A942   |      4.76     |
+| 1139 |      Luteolin      |    P02794   |      4.76     |
+| 1140 | Cannabistilbene I  |    P06702   |      4.76     |
+| 1141 |    Cannflavin B    |    P14780   |      4.76     |
+| 1142 |      Luteolin      |    Q8TCW3   |      4.76     |
+| 1143 | 6-prenylnaringenin |    Q16832   |      4.76     |
+| 1144 | 6-prenylnaringenin |    P48960   |      4.76     |
+| 1145 |     Canniprene     |    A0N5G3   |      4.76     |
+| 1146 |      Luteolin      |    Q93099   |      4.76     |
+| 1147 |      Luteolin      |    P53621   |      4.76     |
+| 1148 |     Hesperetin     |    I7HB73   |      4.76     |
+| 1149 |     Quercetin      |    P40189   |      4.75     |
+| 1150 |    Cannflavin B    |    B5A938   |      4.75     |
+| 1151 |     Canniprene     |    P05109   |      4.75     |
+| 1152 |     Canniprene     |    P19823   |      4.75     |
+| 1153 |     Quercetin      |    Q01201   |      4.75     |
+| 1154 |    Cannflavin B    |    B5A960   |      4.75     |
+| 1155 |     Quercetin      |    Q99542   |      4.75     |
+| 1156 |     Canniprene     |    B5A941   |      4.75     |
+| 1157 |     Canniprene     |    Q14765   |      4.75     |
+| 1158 |    Cannflavin B    |    O14802   |      4.75     |
+| 1159 |    Cannflavin C    |    P80511   |      4.75     |
+| 1160 |    Cannflavin C    |    Q8TDF6   |      4.75     |
+| 1161 |      Luteolin      |    Q92743   |      4.75     |
+| 1162 |      Luteolin      |    P09326   |      4.75     |
+| 1163 |    Cannflavin B    |    Q86YJ6   |      4.75     |
+| 1164 |     Hesperetin     |    A2VED2   |      4.75     |
+| 1165 |     Canniprene     |    P55085   |      4.75     |
+| 1166 | Cannabistilbene I  |    Q8TDF6   |      4.75     |
+| 1167 |    Cannflavin B    |    Q5VWK5   |      4.75     |
+| 1168 |     Quercetin      |    Q12884   |      4.75     |
+| 1169 |    Cannflavin C    |    Q30156   |      4.75     |
+| 1170 |     Hesperetin     |    Q30048   |      4.75     |
+| 1171 |     Hesperetin     |    P10721   |      4.75     |
+| 1172 |    Cannflavin A    |    B5A961   |      4.75     |
+| 1173 |      Luteolin      |    P11021   |      4.75     |
+| 1174 |    Cannflavin B    |    Q6DN72   |      4.75     |
+| 1175 |    Cannflavin A    |    P02766   |      4.75     |
+| 1176 |     Hesperetin     |    P09619   |      4.75     |
+| 1177 |      Luteolin      |    B5A940   |      4.74     |
+| 1178 |     Canniprene     |    Q9NSU2   |      4.74     |
+| 1179 |     Hesperetin     |  A0A5K1TT58 |      4.74     |
+| 1180 |     Canniprene     |    Q9BUI4   |      4.74     |
+| 1181 |     Canniprene     |    Q9BYX4   |      4.74     |
+| 1182 | Cannabistilbene I  |    Q969H8   |      4.74     |
+| 1183 |    Cannflavin C    |    A0RZF8   |      4.74     |
+| 1184 | 6-prenylnaringenin |    P98066   |      4.74     |
+| 1185 |      Luteolin      |    P31994   |      4.74     |
+| 1186 | 6-prenylnaringenin |    A0RZG0   |      4.74     |
+| 1187 |     Canniprene     |    O15553   |      4.74     |
+| 1188 |     Quercetin      |    Q8TD31   |      4.74     |
+| 1189 |    Cannflavin B    |    Q9NV23   |      4.74     |
+| 1190 | 6-prenylnaringenin |    P16112   |      4.74     |
+| 1191 |      Luteolin      |    B5A982   |      4.74     |
+| 1192 |    Cannflavin C    |    P10721   |      4.74     |
+| 1193 |     Canniprene     |    B5A943   |      4.74     |
+| 1194 | Cannabistilbene I  |    Q9HC29   |      4.74     |
+| 1195 |     Hesperetin     |    Q30157   |      4.74     |
+| 1196 |     Hesperetin     |    P06702   |      4.74     |
+| 1197 |     Hesperetin     |    Q9HC29   |      4.74     |
+| 1198 | 6-prenylnaringenin |    A0RZF9   |      4.74     |
+| 1199 |     Canniprene     |    Q9HCJ1   |      4.74     |
+| 1200 |     Quercetin      |    Q13501   |      4.74     |
+| 1201 |    Cannflavin A    |    O75339   |      4.74     |
+| 1202 | 6-prenylnaringenin |    C0LTP6   |      4.74     |
+| 1203 |     Hesperetin     |    Q9HBA0   |      4.74     |
+| 1204 |    Cannflavin A    |    O75792   |      4.74     |
+| 1205 |    Cannflavin A    |    Q9H015   |      4.73     |
+| 1206 |     Quercetin      |    B5A979   |      4.73     |
+| 1207 |      Luteolin      |    Q8NIA0   |      4.73     |
+| 1208 |    Cannflavin B    |    P50281   |      4.73     |
+| 1209 |      Luteolin      |    Q9BV73   |      4.73     |
+| 1210 | Cannabistilbene I  |    A0RZF8   |      4.73     |
+| 1211 |      Luteolin      |    P18510   |      4.73     |
+| 1212 |     Quercetin      |    B5A980   |      4.73     |
+| 1213 | 6-prenylnaringenin |    I7GY82   |      4.73     |
+| 1214 | 6-prenylnaringenin |    Q14789   |      4.73     |
+| 1215 |    Cannflavin A    |    B5A942   |      4.73     |
+| 1216 |      Luteolin      |    Q96GV9   |      4.73     |
+| 1217 |    Cannflavin A    |    Q8TCW4   |      4.73     |
+| 1218 |    Cannflavin B    |    K4RH61   |      4.73     |
+| 1219 | Cannabistilbene I  |    P80511   |      4.73     |
+| 1220 |    Cannflavin B    |    P19823   |      4.73     |
+| 1221 | 6-prenylnaringenin |    Q99571   |      4.73     |
+| 1222 |     Canniprene     |    B5A961   |      4.73     |
+| 1223 |    Cannflavin A    |    Q93099   |      4.73     |
+| 1224 |     Quercetin      |    P17706   |      4.73     |
+| 1225 |      Luteolin      |    Q8IV20   |      4.73     |
+| 1226 |     Hesperetin     |    Q8TDF6   |      4.73     |
+| 1227 | 6-prenylnaringenin |    P48736   |      4.73     |
+| 1228 |     Canniprene     |    P02766   |      4.73     |
+| 1229 |    Cannflavin A    |    P53621   |      4.73     |
+| 1230 |     Quercetin      |    P09429   |      4.73     |
+| 1231 |    Cannflavin A    |    P02794   |      4.73     |
+| 1232 |    Cannflavin A    |    Q8TCW3   |      4.73     |
+| 1233 | 6-prenylnaringenin |    P41159   |      4.73     |
+| 1234 |      Luteolin      |    O14879   |      4.73     |
+| 1235 |      Luteolin      |    Q29980   |      4.72     |
+| 1236 |    Cannflavin C    |    Q06187   |      4.72     |
+| 1237 |    Cannflavin A    |    P09326   |      4.72     |
+| 1238 |    Cannflavin C    |    Q16832   |      4.72     |
+| 1239 |    Cannflavin B    |    Q8IUL8   |      4.72     |
+| 1240 | Cannabistilbene I  |    Q30156   |      4.72     |
+| 1241 | 6-prenylnaringenin |    B5A948   |      4.72     |
+| 1242 |    Cannflavin A    |    Q92743   |      4.72     |
+| 1243 |    Cannflavin C    |    P01589   |      4.72     |
+| 1244 | 6-prenylnaringenin |    Q8N4C6   |      4.72     |
+| 1245 |      Luteolin      |    Q9Y2G2   |      4.72     |
+| 1246 | 6-prenylnaringenin |    P35590   |      4.72     |
+| 1247 | Cannabistilbene I  |    P01589   |      4.72     |
+| 1248 |    Cannflavin B    |    P20333   |      4.72     |
+| 1249 |    Cannflavin A    |    P11021   |      4.72     |
+| 1250 |    Cannflavin C    |    Q9HC29   |      4.72     |
+| 1251 |      Luteolin      |    P41240   |      4.72     |
+| 1252 |     Quercetin      |    Q03426   |      4.72     |
+| 1253 |     Canniprene     |    O75339   |      4.72     |
+| 1254 |    Cannflavin B    |    Q12841   |      4.72     |
+| 1255 |     Hesperetin     |    Q969H8   |      4.72     |
+| 1256 |    Cannflavin A    |    B5A940   |      4.72     |
+| 1257 |    Cannflavin B    |    B5A959   |      4.72     |
+| 1258 |     Canniprene     |    Q9H015   |      4.72     |
+| 1259 | 6-prenylnaringenin |    Q53HY9   |      4.71     |
+| 1260 |     Canniprene     |    O75792   |      4.71     |
+| 1261 |      Luteolin      |    B5A963   |      4.71     |
+| 1262 | 6-prenylnaringenin |    A2VED1   |      4.71     |
+| 1263 |      Luteolin      |    B5A958   |      4.71     |
+| 1264 |    Cannflavin B    |    A0N5G3   |      4.71     |
+| 1265 |    Cannflavin B    |    Q9NY25   |      4.71     |
+| 1266 |     Canniprene     |    Q8TCW4   |      4.71     |
+| 1267 | 6-prenylnaringenin |    A2NVP9   |      4.71     |
+| 1268 |    Cannflavin C    |    Q13651   |      4.71     |
+| 1269 |      Luteolin      |    Q9UP07   |      4.71     |
+| 1270 |     Canniprene     |    B5A942   |      4.71     |
+| 1271 | 6-prenylnaringenin |    Q92633   |      4.71     |
+| 1272 | Cannabistilbene I  |    Q13651   |      4.71     |
+| 1273 |     Hesperetin     |    A0RZF8   |      4.71     |
+| 1274 |     Canniprene     |    Q93099   |      4.71     |
+| 1275 |    Cannflavin A    |    P31994   |      4.71     |
+| 1276 |    Cannflavin A    |    B5A982   |      4.71     |
+| 1277 |     Canniprene     |    P53621   |      4.71     |
+| 1278 |     Quercetin      |    Q9NZH7   |      4.71     |
+| 1279 |     Canniprene     |    P02794   |      4.71     |
+| 1280 |      Luteolin      |    Q01201   |      4.71     |
+| 1281 |     Canniprene     |    Q8TCW3   |      4.71     |
+| 1282 |      Luteolin      |    Q9HB29   |      4.71     |
+| 1283 |      Luteolin      |    Q8TCW2   |      4.71     |
+| 1284 |    Cannflavin B    |    B5A941   |      4.70     |
+| 1285 |    Cannflavin B    |    Q14765   |      4.70     |
+| 1286 |     Canniprene     |    P09326   |      4.70     |
+| 1287 | 6-prenylnaringenin |    Q14839   |      4.70     |
+| 1288 |    Cannflavin A    |    P18510   |      4.70     |
+| 1289 |    Cannflavin B    |    Q08334   |      4.70     |
+| 1290 |     Hesperetin     |    P01589   |      4.70     |
+| 1291 |     Quercetin      |    Q29983   |      4.70     |
+| 1292 | 6-prenylnaringenin |    P08581   |      4.70     |
+| 1293 |    Cannflavin B    |    O15553   |      4.70     |
+| 1294 | 6-prenylnaringenin |    Q06187   |      4.70     |
+| 1295 |     Canniprene     |    Q92743   |      4.70     |
+| 1296 |    Cannflavin C    |    P41159   |      4.70     |
+| 1297 |     Hesperetin     |    P80511   |      4.70     |
+| 1298 | Cannabistilbene I  |    Q16832   |      4.70     |
+| 1299 | Cannabistilbene I  |    P14174   |      4.70     |
+| 1300 |      Luteolin      |    P50148   |      4.70     |
+| 1301 |    Cannflavin A    |    Q8NIA0   |      4.70     |
+| 1302 |    Cannflavin C    |    I7GY82   |      4.70     |
+| 1303 |    Cannflavin A    |    Q9BV73   |      4.70     |
+| 1304 |     Canniprene     |    P11021   |      4.70     |
+| 1305 |      Luteolin      |    Q12884   |      4.70     |
+| 1306 |    Cannflavin A    |    Q8IV20   |      4.70     |
+| 1307 |    Cannflavin A    |    O14879   |      4.70     |
+| 1308 | 6-prenylnaringenin |    Q8N6P7   |      4.70     |
+| 1309 |    Cannflavin A    |    Q96GV9   |      4.70     |
+| 1310 |     Quercetin      |    P40763   |      4.70     |
+| 1311 | 6-prenylnaringenin |    Q4LE39   |      4.70     |
+| 1312 |     Hesperetin     |    P14174   |      4.70     |
+| 1313 |     Canniprene     |    B5A940   |      4.70     |
+| 1314 |    Cannflavin C    |    P98066   |      4.70     |
+| 1315 |      Luteolin      |    B5A978   |      4.70     |
+| 1316 |    Cannflavin A    |    Q29980   |      4.70     |
+| 1317 | 6-prenylnaringenin |    I7H3Z5   |      4.70     |
+| 1318 |     Hesperetin     |    Q30156   |      4.70     |
+| 1319 |    Cannflavin B    |    P05109   |      4.70     |
+| 1320 |    Cannflavin C    |    P48960   |      4.70     |
+| 1321 |    Cannflavin C    |    C0LTP6   |      4.69     |
+| 1322 |     Quercetin      |    P50454   |      4.69     |
+| 1323 | Cannabistilbene I  |    P48960   |      4.69     |
+| 1324 |    Cannflavin C    |    Q92633   |      4.69     |
+| 1325 |      Luteolin      |    B5A962   |      4.69     |
+| 1326 |     Quercetin      |    P02747   |      4.69     |
+| 1327 | 6-prenylnaringenin |    Q03519   |      4.69     |
+| 1328 | 6-prenylnaringenin |    P17948   |      4.69     |
+| 1329 |     Hesperetin     |    Q13651   |      4.69     |
+| 1330 | 6-prenylnaringenin |    Q8NI89   |      4.69     |
+| 1331 | 6-prenylnaringenin |    Q13444   |      4.69     |
+| 1332 |    Cannflavin C    |    Q14789   |      4.69     |
+| 1333 |    Cannflavin B    |    P55085   |      4.69     |
+| 1334 |    Cannflavin A    |    Q9Y2G2   |      4.69     |
+| 1335 |    Cannflavin B    |    Q9H015   |      4.69     |
+| 1336 |    Cannflavin B    |    Q9BYX4   |      4.69     |
+| 1337 |    Cannflavin C    |    A2VED1   |      4.69     |
+| 1338 |    Cannflavin B    |    B5A943   |      4.69     |
+| 1339 |     Canniprene     |    B5A982   |      4.69     |
+| 1340 |     Canniprene     |    P18510   |      4.69     |
+| 1341 | Cannabistilbene I  |    P98066   |      4.69     |
+| 1342 |    Cannflavin B    |    Q9BUI4   |      4.69     |
+| 1343 |     Canniprene     |    P31994   |      4.69     |
+| 1344 |    Cannflavin B    |    Q9NSU2   |      4.69     |
+| 1345 |      Luteolin      |    P40189   |      4.69     |
+| 1346 |    Cannflavin C    |    B5A948   |      4.69     |
+| 1347 |    Cannflavin C    |    P14174   |      4.69     |
+| 1348 |      Luteolin      |    Q8TDP1   |      4.69     |
+| 1349 |    Cannflavin A    |    P41240   |      4.68     |
+| 1350 |    Cannflavin B    |    Q9HCJ1   |      4.68     |
+| 1351 |    Cannflavin C    |    P16112   |      4.68     |
+| 1352 |    Cannflavin B    |    P53621   |      4.68     |
+| 1353 | 6-prenylnaringenin |    A0N5G1   |      4.68     |
+| 1354 |    Cannflavin C    |    A2NVP9   |      4.68     |
+| 1355 |    Cannflavin C    |    A0RZG0   |      4.68     |
+| 1356 |     Quercetin      |    P29460   |      4.68     |
+| 1357 |     Quercetin      |    Q9UBC1   |      4.68     |
+| 1358 |    Cannflavin A    |    B5A963   |      4.68     |
+| 1359 |     Canniprene     |    Q8NIA0   |      4.68     |
+| 1360 |      Luteolin      |    Q99542   |      4.68     |
+| 1361 | Cannabistilbene I  |    P16112   |      4.68     |
+| 1362 |     Canniprene     |    O14879   |      4.68     |
+| 1363 |    Cannflavin A    |    Q01201   |      4.68     |
+| 1364 |    Cannflavin C    |    A0RZF9   |      4.68     |
+| 1365 |    Cannflavin C    |    O00329   |      4.68     |
+| 1366 |     Canniprene     |    Q9BV73   |      4.68     |
+| 1367 |    Cannflavin A    |    B5A958   |      4.68     |
+| 1368 | 6-prenylnaringenin |    Q9BZZ2   |      4.68     |
+| 1369 |    Cannflavin B    |    Q93099   |      4.68     |
+| 1370 |     Quercetin      |    P04083   |      4.68     |
+| 1371 | Cannabistilbene I  |    A0RZG0   |      4.68     |
+| 1372 |     Hesperetin     |    P48960   |      4.68     |
+| 1373 | Cannabistilbene I  |    C0LTP6   |      4.68     |
+| 1374 |     Canniprene     |    Q8IV20   |      4.68     |
+| 1375 | Cannabistilbene I  |    I7GY82   |      4.68     |
+| 1376 |    Cannflavin A    |    Q9HB29   |      4.68     |
+| 1377 |    Cannflavin C    |    Q8N4C6   |      4.68     |
+| 1378 |    Cannflavin A    |    Q9UP07   |      4.68     |
+| 1379 | Cannabistilbene I  |    Q14789   |      4.68     |
+| 1380 |     Canniprene     |    Q96GV9   |      4.68     |
+| 1381 |      Luteolin      |    P78536   |      4.68     |
+| 1382 |     Quercetin      |    B5A981   |      4.68     |
+| 1383 | Cannabistilbene I  |    P41159   |      4.68     |
+| 1384 | Cannabistilbene I  |    A0RZF9   |      4.68     |
+| 1385 | 6-prenylnaringenin |    Q9C000   |      4.68     |
+| 1386 |     Canniprene     |    Q29980   |      4.68     |
+| 1387 | 6-prenylnaringenin |    A5LIN1   |      4.68     |
+| 1388 |     Hesperetin     |    Q16832   |      4.67     |
+| 1389 | Cannabistilbene I  |    Q06187   |      4.67     |
+| 1390 |    Cannflavin A    |    Q12884   |      4.67     |
+| 1391 |    Cannflavin A    |    Q8TCW2   |      4.67     |
+| 1392 | 6-prenylnaringenin |    O00329   |      4.67     |
+| 1393 |      Luteolin      |    Q13501   |      4.67     |
+| 1394 | 6-prenylnaringenin |    P58397   |      4.67     |
+| 1395 |    Cannflavin A    |    P50148   |      4.67     |
+| 1396 |    Cannflavin B    |    P08253   |      4.67     |
+| 1397 |    Cannflavin B    |    B5A961   |      4.67     |
+| 1398 | Cannabistilbene I  |    B5A948   |      4.67     |
+| 1399 |    Cannflavin B    |    Q92743   |      4.67     |
+| 1400 | 6-prenylnaringenin |    A0N5G2   |      4.67     |
+| 1401 |     Canniprene     |    Q9Y2G2   |      4.67     |
+| 1402 |     Quercetin      |    P20963   |      4.67     |
+| 1403 |    Cannflavin C    |    Q99571   |      4.67     |
+| 1404 |     Canniprene     |    P41240   |      4.67     |
+| 1405 |    Cannflavin B    |    O75339   |      4.67     |
+| 1406 |    Cannflavin B    |    P02766   |      4.67     |
+| 1407 |     Quercetin      |    P51580   |      4.67     |
+| 1408 |     Quercetin      |    Q7LGC8   |      4.67     |
+| 1409 |    Cannflavin B    |    P09326   |      4.67     |
+| 1410 | Cannabistilbene I  |    Q99571   |      4.67     |
+| 1411 |    Cannflavin C    |    Q8NI89   |      4.67     |
+| 1412 | Cannabistilbene I  |    Q92633   |      4.67     |
+| 1413 |     Hesperetin     |    P98066   |      4.67     |
+| 1414 |    Cannflavin A    |    B5A978   |      4.66     |
+| 1415 |      Luteolin      |    P40763   |      4.66     |
+| 1416 |     Canniprene     |    Q01201   |      4.66     |
+| 1417 | Cannabistilbene I  |    A2VED1   |      4.66     |
+| 1418 |     Hesperetin     |    P16112   |      4.66     |
+| 1419 |     Canniprene     |    B5A963   |      4.66     |
+| 1420 |     Hesperetin     |    A0RZG0   |      4.66     |
+| 1421 |    Cannflavin B    |    O75792   |      4.66     |
+| 1422 | Cannabistilbene I  |    Q8N4C6   |      4.66     |
+| 1423 |    Cannflavin B    |    P11021   |      4.66     |
+| 1424 |    Cannflavin B    |    P18510   |      4.66     |
+| 1425 |    Cannflavin C    |    P08581   |      4.66     |
+| 1426 |      Luteolin      |    P09429   |      4.66     |
+| 1427 |    Cannflavin A    |    B5A962   |      4.66     |
+| 1428 |    Cannflavin C    |    Q4LE39   |      4.66     |
+| 1429 |    Cannflavin B    |    B5A942   |      4.66     |
+| 1430 | Cannabistilbene I  |    A2NVP9   |      4.66     |
+| 1431 |    Cannflavin C    |    P35590   |      4.66     |
+| 1432 |     Canniprene     |    B5A958   |      4.66     |
+| 1433 |     Hesperetin     |    A0RZF9   |      4.66     |
+| 1434 | 6-prenylnaringenin |    Q8WVB3   |      4.66     |
+| 1435 |     Canniprene     |    Q9HB29   |      4.66     |
+| 1436 |      Luteolin      |    Q8TD31   |      4.66     |
+| 1437 |    Cannflavin C    |    Q53HY9   |      4.66     |
+| 1438 | 6-prenylnaringenin |    B5A952   |      4.66     |
+| 1439 |     Canniprene     |    Q9UP07   |      4.66     |
+| 1440 |    Cannflavin A    |    P40189   |      4.66     |
+| 1441 |    Cannflavin B    |    Q8TCW3   |      4.66     |
+| 1442 |     Hesperetin     |    Q14789   |      4.66     |
+| 1443 | 6-prenylnaringenin |    P02786   |      4.66     |
+| 1444 |     Canniprene     |    Q12884   |      4.66     |
+| 1445 | Cannabistilbene I  |    Q53HY9   |      4.66     |
+| 1446 | 6-prenylnaringenin |    P14784   |      4.65     |
+| 1447 |    Cannflavin C    |    Q14839   |      4.65     |
+| 1448 |    Cannflavin C    |    I7H3Z5   |      4.65     |
+| 1449 |     Canniprene     |    Q8TCW2   |      4.65     |
+| 1450 |     Hesperetin     |    I7GY82   |      4.65     |
+| 1451 |     Quercetin      |  A0A1Q2XDC9 |      4.65     |
+| 1452 |     Hesperetin     |    C0LTP6   |      4.65     |
+| 1453 |    Cannflavin B    |    Q8TCW4   |      4.65     |
+| 1454 |     Quercetin      |    Q9Y2R2   |      4.65     |
+| 1455 |    Cannflavin A    |    Q8TDP1   |      4.65     |
+| 1456 |      Luteolin      |    B5A980   |      4.65     |
+| 1457 |     Canniprene     |    P50148   |      4.65     |
+| 1458 |    Cannflavin B    |    Q9BV73   |      4.65     |
+| 1459 |    Cannflavin B    |    P02794   |      4.65     |
+| 1460 |    Cannflavin B    |    Q8IV20   |      4.65     |
+| 1461 |     Quercetin      |    Q96EB6   |      4.65     |
+| 1462 |    Cannflavin B    |    Q01201   |      4.65     |
+| 1463 |     Quercetin      |    Q9NZH6   |      4.65     |
+| 1464 |     Hesperetin     |    B5A948   |      4.65     |
+| 1465 | 6-prenylnaringenin |    Q9NRY4   |      4.65     |
+| 1466 |      Luteolin      |    P50454   |      4.65     |
+| 1467 |     Hesperetin     |    Q99571   |      4.65     |
+| 1468 | Cannabistilbene I  |    P35590   |      4.65     |
+| 1469 |    Cannflavin A    |    Q99542   |      4.65     |
+| 1470 |    Cannflavin B    |    B5A940   |      4.65     |
+| 1471 |     Hesperetin     |    P41159   |      4.65     |
+| 1472 |     Quercetin      |    G3K0T4   |      4.65     |
+| 1473 |    Cannflavin A    |    Q13501   |      4.65     |
+| 1474 |      Luteolin      |    B5A979   |      4.65     |
+| 1475 |     Canniprene     |    B5A978   |      4.64     |
+| 1476 |    Cannflavin A    |    P78536   |      4.64     |
+| 1477 | Cannabistilbene I  |    Q8NI89   |      4.64     |
+| 1478 |      Luteolin      |    Q29983   |      4.64     |
+| 1479 | Cannabistilbene I  |    O00329   |      4.64     |
+| 1480 |    Cannflavin A    |    P40763   |      4.64     |
+| 1481 | 6-prenylnaringenin |    P49747   |      4.64     |
+| 1482 |     Canniprene     |    B5A962   |      4.64     |
+| 1483 | Cannabistilbene I  |    P08581   |      4.64     |
+| 1484 |      Luteolin      |    Q9NZH7   |      4.64     |
+| 1485 |     Quercetin      |    O43586   |      4.64     |
+| 1486 | Cannabistilbene I  |    I7H3Z5   |      4.64     |
+| 1487 | Cannabistilbene I  |    Q4LE39   |      4.64     |
+| 1488 | 6-prenylnaringenin |    B5A927   |      4.64     |
+| 1489 |     Hesperetin     |    Q53HY9   |      4.64     |
+| 1490 |     Hesperetin     |    A2VED1   |      4.64     |
+| 1491 |     Hesperetin     |    Q8N4C6   |      4.64     |
+| 1492 |     Canniprene     |    P40189   |      4.64     |
+| 1493 |      Luteolin      |    Q03426   |      4.64     |
+| 1494 | 6-prenylnaringenin |    O00421   |      4.64     |
+| 1495 |    Cannflavin B    |    Q12884   |      4.64     |
+| 1496 |     Hesperetin     |    A2NVP9   |      4.64     |
+| 1497 |     Hesperetin     |    Q92633   |      4.64     |
+| 1498 |      Luteolin      |    P02747   |      4.63     |
+| 1499 |    Cannflavin C    |    Q03519   |      4.63     |
+| 1500 | Cannabistilbene I  |    Q14839   |      4.63     |
+| 1501 |     Quercetin      |  A0A1Q2XD95 |      4.63     |
+| 1502 | Cannabistilbene I  |    Q03519   |      4.63     |
+| 1503 |    Cannflavin B    |    P31994   |      4.63     |
+| 1504 |    Cannflavin B    |    Q9HB29   |      4.63     |
+| 1505 |    Cannflavin A    |    P09429   |      4.63     |
+| 1506 |    Cannflavin C    |    Q8N6P7   |      4.63     |
+| 1507 |    Cannflavin B    |    O14879   |      4.63     |
+| 1508 |     Canniprene     |    Q8TDP1   |      4.63     |
+| 1509 | Cannabistilbene I  |    Q8N6P7   |      4.63     |
+| 1510 |     Quercetin      |    Q9UM07   |      4.63     |
+| 1511 |    Cannflavin B    |    B5A982   |      4.63     |
+| 1512 | 6-prenylnaringenin |    Q687X5   |      4.63     |
+| 1513 |     Hesperetin     |    Q06187   |      4.63     |
+| 1514 |     Canniprene     |    Q13501   |      4.63     |
+| 1515 |     Canniprene     |    Q99542   |      4.63     |
+| 1516 | 6-prenylnaringenin |    P29317   |      4.63     |
+| 1517 | 6-prenylnaringenin |    Q04912   |      4.63     |
+| 1518 |    Cannflavin C    |    A0N5G1   |      4.63     |
+| 1519 |    Cannflavin C    |    A5LIN1   |      4.63     |
+| 1520 |     Canniprene     |    P40763   |      4.63     |
+| 1521 |    Cannflavin B    |    Q96GV9   |      4.63     |
+| 1522 |     Canniprene     |    P78536   |      4.63     |
+| 1523 |    Cannflavin C    |    O00421   |      4.62     |
+| 1524 |    Cannflavin B    |    Q8NIA0   |      4.62     |
+| 1525 |    Cannflavin A    |    Q8TD31   |      4.62     |
+| 1526 |    Cannflavin A    |    P50454   |      4.62     |
+| 1527 |    Cannflavin B    |    Q29980   |      4.62     |
+| 1528 | Cannabistilbene I  |    A0N5G1   |      4.62     |
+| 1529 |     Hesperetin     |    P35590   |      4.62     |
+| 1530 |     Quercetin      |    E1CJT4   |      4.62     |
+| 1531 | 6-prenylnaringenin |    Q13568   |      4.62     |
+| 1532 |      Luteolin      |    P17706   |      4.62     |
+| 1533 | Cannabistilbene I  |    Q9BZZ2   |      4.62     |
+| 1534 | 6-prenylnaringenin |    P0DJI8   |      4.62     |
+| 1535 |    Cannflavin C    |    Q9BZZ2   |      4.62     |
+| 1536 |     Hesperetin     |    Q8NI89   |      4.62     |
+| 1537 | 6-prenylnaringenin |    B5A930   |      4.62     |
+| 1538 |      Luteolin      |    Q7LGC8   |      4.62     |
+| 1539 |     Hesperetin     |    I7H3Z5   |      4.62     |
+| 1540 |    Cannflavin A    |    B5A980   |      4.62     |
+| 1541 |     Hesperetin     |    Q03519   |      4.62     |
+| 1542 |    Cannflavin A    |    Q29983   |      4.62     |
+| 1543 |    Cannflavin C    |    P17948   |      4.62     |
+| 1544 |    Cannflavin C    |    P58397   |      4.62     |
+| 1545 |    Cannflavin C    |    Q13444   |      4.62     |
+| 1546 |      Luteolin      |    Q9UBC1   |      4.62     |
+| 1547 | 6-prenylnaringenin |    P09603   |      4.61     |
+| 1548 |     Hesperetin     |    P08581   |      4.61     |
+| 1549 |    Cannflavin B    |    P40763   |      4.61     |
+| 1550 |     Hesperetin     |    Q4LE39   |      4.61     |
+| 1551 |      Luteolin      |    P04083   |      4.61     |
+| 1552 |      Luteolin      |    P20963   |      4.61     |
+| 1553 |    Cannflavin B    |    Q9Y2G2   |      4.61     |
+| 1554 |     Hesperetin     |    Q8N6P7   |      4.61     |
+| 1555 | Cannabistilbene I  |    A5LIN1   |      4.61     |
+| 1556 |     Canniprene     |    P09429   |      4.61     |
+| 1557 |    Cannflavin A    |    B5A979   |      4.61     |
+| 1558 | 6-prenylnaringenin |    Q86VB7   |      4.61     |
+| 1559 | Cannabistilbene I  |    Q9C000   |      4.61     |
+| 1560 |     Hesperetin     |    O00329   |      4.61     |
+| 1561 |    Cannflavin A    |    Q9NZH7   |      4.61     |
+| 1562 |     Hesperetin     |    Q14839   |      4.61     |
+| 1563 |      Luteolin      |    P29460   |      4.61     |
+| 1564 |      Luteolin      |    Q96EB6   |      4.61     |
+| 1565 |     Canniprene     |    P50454   |      4.61     |
+| 1566 |    Cannflavin A    |    P02747   |      4.61     |
+| 1567 |     Hesperetin     |    A0N5G1   |      4.61     |
+| 1568 |    Cannflavin B    |    B5A963   |      4.61     |
+| 1569 | Cannabistilbene I  |    Q13444   |      4.61     |
+| 1570 |     Hesperetin     |    Q9C000   |      4.61     |
+| 1571 |     Quercetin      |    P01903   |      4.61     |
+| 1572 |      Luteolin      |    Q9NZH6   |      4.60     |
+| 1573 |     Hesperetin     |    Q9BZZ2   |      4.60     |
+| 1574 |    Cannflavin B    |    B5A958   |      4.60     |
+| 1575 |     Canniprene     |    Q8TD31   |      4.60     |
+| 1576 | Cannabistilbene I  |    A0N5G2   |      4.60     |
+| 1577 |    Cannflavin A    |    Q03426   |      4.60     |
+| 1578 | Cannabistilbene I  |    P17948   |      4.60     |
+| 1579 | 6-prenylnaringenin |    B5A929   |      4.60     |
+| 1580 |    Cannflavin B    |    Q9UP07   |      4.60     |
+| 1581 |    Cannflavin C    |    B5A952   |      4.60     |
+| 1582 |     Quercetin      |    Q9Y3Z3   |      4.60     |
+| 1583 | Cannabistilbene I  |    B5A952   |      4.60     |
+| 1584 | Cannabistilbene I  |    P58397   |      4.60     |
+| 1585 |    Cannflavin B    |    P41240   |      4.60     |
+| 1586 |     Canniprene     |    Q29983   |      4.60     |
+| 1587 |     Quercetin      |    Q9Y5Q3   |      4.60     |
+| 1588 |    Cannflavin B    |    P50148   |      4.60     |
+| 1589 | 6-prenylnaringenin |    Q16552   |      4.60     |
+| 1590 |     Quercetin      |    P36873   |      4.60     |
+| 1591 |    Cannflavin B    |    Q8TCW2   |      4.60     |
+| 1592 |     Hesperetin     |    A0N5G2   |      4.60     |
+| 1593 |      Luteolin      |    O43586   |      4.60     |
+| 1594 |     Canniprene     |    B5A980   |      4.60     |
+| 1595 | Cannabistilbene I  |    O00421   |      4.60     |
+| 1596 | Cannabistilbene I  |    Q8WVB3   |      4.60     |
+| 1597 |    Cannflavin B    |    P50454   |      4.60     |
+| 1598 |      Luteolin      |    B5A981   |      4.59     |
+| 1599 | 6-prenylnaringenin |    B5A954   |      4.59     |
+| 1600 |    Cannflavin C    |    P02786   |      4.59     |
+| 1601 |     Canniprene     |    B5A979   |      4.59     |
+| 1602 | 6-prenylnaringenin |    P19823   |      4.59     |
+| 1603 |      Luteolin      |  A0A1Q2XDC9 |      4.59     |
+| 1604 | 6-prenylnaringenin |    B5A936   |      4.59     |
+| 1605 |    Cannflavin C    |    A0N5G2   |      4.59     |
+| 1606 |      Luteolin      |    Q9Y2R2   |      4.59     |
+| 1607 |    Cannflavin A    |    P17706   |      4.59     |
+| 1608 |     Hesperetin     |    A5LIN1   |      4.59     |
+| 1609 |    Cannflavin A    |    Q7LGC8   |      4.59     |
+| 1610 |     Canniprene     |    Q9NZH7   |      4.59     |
+| 1611 | Cannabistilbene I  |    P02786   |      4.59     |
+| 1612 | 6-prenylnaringenin |    B5A953   |      4.59     |
+| 1613 |    Cannflavin B    |    P40189   |      4.59     |
+| 1614 |    Cannflavin A    |    P20963   |      4.59     |
+| 1615 |     Hesperetin     |    Q8WVB3   |      4.59     |
+| 1616 |     Canniprene     |    P02747   |      4.59     |
+| 1617 |    Cannflavin B    |    B5A962   |      4.59     |
+| 1618 |     Hesperetin     |    B5A952   |      4.59     |
+| 1619 |      Luteolin      |    G3K0T4   |      4.59     |
+| 1620 |      Luteolin      |    P51580   |      4.58     |
+| 1621 |    Cannflavin B    |    B5A978   |      4.58     |
+| 1622 | 6-prenylnaringenin |    Q6DN72   |      4.58     |
+| 1623 |    Cannflavin C    |    Q9C000   |      4.58     |
+| 1624 |    Cannflavin B    |    Q13501   |      4.58     |
+| 1625 |    Cannflavin C    |    Q8WVB3   |      4.58     |
+| 1626 |    Cannflavin A    |    Q9UBC1   |      4.58     |
+| 1627 |    Cannflavin A    |    Q96EB6   |      4.58     |
+| 1628 |     Canniprene     |    Q03426   |      4.58     |
+| 1629 |    Cannflavin C    |    B5A927   |      4.58     |
+| 1630 |     Hesperetin     |    Q13444   |      4.58     |
+| 1631 |    Cannflavin A    |    P04083   |      4.58     |
+| 1632 |     Quercetin      |    Q6Q5X5   |      4.58     |
+| 1633 |    Cannflavin A    |    Q9NZH6   |      4.58     |
+| 1634 | Cannabistilbene I  |    B5A927   |      4.58     |
+| 1635 |    Cannflavin C    |    Q9NRY4   |      4.58     |
+| 1636 | Cannabistilbene I  |    Q9NRY4   |      4.58     |
+| 1637 | 6-prenylnaringenin |    Q96ER3   |      4.58     |
+| 1638 | 6-prenylnaringenin |    G1UCX3   |      4.58     |
+| 1639 |    Cannflavin C    |    Q04912   |      4.58     |
+| 1640 |     Hesperetin     |    P58397   |      4.58     |
+| 1641 |     Hesperetin     |    P17948   |      4.58     |
+| 1642 |    Cannflavin B    |    Q8TDP1   |      4.58     |
+| 1643 | 6-prenylnaringenin |    B5A934   |      4.58     |
+| 1644 |    Cannflavin A    |    P29460   |      4.57     |
+| 1645 |    Cannflavin C    |    Q687X5   |      4.57     |
+| 1646 |    Cannflavin B    |    Q99542   |      4.57     |
+| 1647 |    Cannflavin A    |    O43586   |      4.57     |
+| 1648 |      Luteolin      |  A0A1Q2XD95 |      4.57     |
+| 1649 | 6-prenylnaringenin |    Q30035   |      4.57     |
+| 1650 |      Luteolin      |    Q9UM07   |      4.57     |
+| 1651 |    Cannflavin C    |    P14784   |      4.57     |
+| 1652 |     Canniprene     |    P17706   |      4.57     |
+| 1653 | Cannabistilbene I  |    Q687X5   |      4.57     |
+| 1654 |     Quercetin      |    P62140   |      4.57     |
+| 1655 | Cannabistilbene I  |    P14784   |      4.57     |
+| 1656 |    Cannflavin C    |    P49747   |      4.57     |
+| 1657 |     Hesperetin     |    P02786   |      4.57     |
+| 1658 |    Cannflavin C    |    P29317   |      4.57     |
+| 1659 |     Canniprene     |    Q7LGC8   |      4.57     |
+| 1660 | 6-prenylnaringenin |    B5A935   |      4.57     |
+| 1661 |     Canniprene     |    P20963   |      4.57     |
+| 1662 | Cannabistilbene I  |    P49747   |      4.57     |
+| 1663 |     Hesperetin     |    O00421   |      4.57     |
+| 1664 |      Luteolin      |    E1CJT4   |      4.56     |
+| 1665 |     Hesperetin     |    B5A927   |      4.56     |
+| 1666 |    Cannflavin B    |    P78536   |      4.56     |
+| 1667 | 6-prenylnaringenin |    B5A931   |      4.56     |
+| 1668 |     Canniprene     |    Q96EB6   |      4.56     |
+| 1669 |     Canniprene     |    Q9UBC1   |      4.56     |
+| 1670 |     Hesperetin     |    Q9NRY4   |      4.56     |
+| 1671 |     Canniprene     |    Q9NZH6   |      4.56     |
+| 1672 | 6-prenylnaringenin |    B5A933   |      4.56     |
+| 1673 |      Luteolin      |    Q9Y3Z3   |      4.56     |
+| 1674 |    Cannflavin C    |    P0DJI8   |      4.56     |
+| 1675 |     Canniprene     |    P04083   |      4.56     |
+| 1676 | 6-prenylnaringenin |    Q86TM6   |      4.56     |
+| 1677 |    Cannflavin A    |  A0A1Q2XDC9 |      4.56     |
+| 1678 |    Cannflavin B    |    Q29983   |      4.56     |
+| 1679 |    Cannflavin A    |    B5A981   |      4.56     |
+| 1680 |    Cannflavin A    |    Q9Y2R2   |      4.56     |
+| 1681 | Cannabistilbene I  |    P29317   |      4.56     |
+| 1682 |    Cannflavin B    |    P09429   |      4.56     |
+| 1683 | Cannabistilbene I  |    Q04912   |      4.56     |
+| 1684 |     Hesperetin     |    Q687X5   |      4.56     |
+| 1685 |     Canniprene     |    O43586   |      4.56     |
+| 1686 |      Luteolin      |    Q9Y5Q3   |      4.56     |
+| 1687 | 6-prenylnaringenin |    P20810   |      4.56     |
+| 1688 | 6-prenylnaringenin |    B5A951   |      4.55     |
+| 1689 |     Quercetin      |    Q9NPA9   |      4.55     |
+| 1690 |     Canniprene     |    P29460   |      4.55     |
+| 1691 |     Quercetin      |    P62136   |      4.55     |
+| 1692 |    Cannflavin A    |    G3K0T4   |      4.55     |
+| 1693 |     Hesperetin     |    P14784   |      4.55     |
+| 1694 | Cannabistilbene I  |    Q86VB7   |      4.55     |
+| 1695 |    Cannflavin C    |    Q13568   |      4.55     |
+| 1696 | 6-prenylnaringenin |    B5A937   |      4.55     |
+| 1697 | Cannabistilbene I  |    Q13568   |      4.55     |
+| 1698 |    Cannflavin A    |    P51580   |      4.55     |
+| 1699 | 6-prenylnaringenin |    P53621   |      4.55     |
+| 1700 | Cannabistilbene I  |    P0DJI8   |      4.55     |
+| 1701 |    Cannflavin C    |    P45452   |      4.55     |
+| 1702 |    Cannflavin B    |    Q8TD31   |      4.55     |
+| 1703 | 6-prenylnaringenin |    Q92805   |      4.55     |
+| 1704 |    Cannflavin B    |    Q7LGC8   |      4.55     |
+| 1705 | 6-prenylnaringenin |    B5A924   |      4.55     |
+| 1706 | 6-prenylnaringenin |    B5A939   |      4.55     |
+| 1707 |    Cannflavin B    |    Q9NZH6   |      4.54     |
+| 1708 |    Cannflavin A    |    Q9UM07   |      4.54     |
+| 1709 |    Cannflavin A    |  A0A1Q2XD95 |      4.54     |
+| 1710 | 6-prenylnaringenin |    B5A960   |      4.54     |
+| 1711 |    Cannflavin B    |    O43586   |      4.54     |
+| 1712 |      Luteolin      |    P01903   |      4.54     |
+| 1713 |     Quercetin      |    O95865   |      4.54     |
+| 1714 |     Hesperetin     |    P49747   |      4.54     |
+| 1715 |    Cannflavin B    |    B5A980   |      4.54     |
+| 1716 |    Cannflavin B    |    P02747   |      4.54     |
+| 1717 |    Cannflavin B    |    Q96EB6   |      4.54     |
+| 1718 |    Cannflavin C    |    Q16552   |      4.54     |
+| 1719 |    Cannflavin C    |    Q86VB7   |      4.54     |
+| 1720 | Cannabistilbene I  |    Q16552   |      4.54     |
+| 1721 |     Hesperetin     |    Q86VB7   |      4.54     |
+| 1722 |    Cannflavin C    |    P09603   |      4.54     |
+| 1723 | 6-prenylnaringenin |    P54762   |      4.54     |
+| 1724 | 6-prenylnaringenin |    P45452   |      4.54     |
+| 1725 | 6-prenylnaringenin |    P21709   |      4.54     |
+| 1726 | Cannabistilbene I  |    P09603   |      4.54     |
+| 1727 |     Hesperetin     |    P29317   |      4.54     |
+| 1728 |     Canniprene     |    B5A981   |      4.54     |
+| 1729 |     Canniprene     |  A0A1Q2XDC9 |      4.54     |
+| 1730 |    Cannflavin C    |    B5A930   |      4.54     |
+| 1731 | 6-prenylnaringenin |    P01375   |      4.54     |
+| 1732 |    Cannflavin A    |    Q9Y3Z3   |      4.54     |
+| 1733 | 6-prenylnaringenin |    Q9H015   |      4.54     |
+| 1734 | Cannabistilbene I  |    B5A930   |      4.54     |
+| 1735 |     Canniprene     |    Q9Y2R2   |      4.54     |
+| 1736 |    Cannflavin B    |    P20963   |      4.54     |
+| 1737 | 6-prenylnaringenin |    B5A938   |      4.54     |
+| 1738 | Cannabistilbene I  |    P48736   |      4.54     |
+| 1739 |    Cannflavin B    |    Q9NZH7   |      4.54     |
+| 1740 | 6-prenylnaringenin |    Q9NV23   |      4.53     |
+| 1741 |     Hesperetin     |    Q13568   |      4.53     |
+| 1742 |    Cannflavin A    |    Q9Y5Q3   |      4.53     |
+| 1743 | 6-prenylnaringenin |    Q5VWK5   |      4.53     |
+| 1744 |     Hesperetin     |    Q04912   |      4.53     |
+| 1745 |     Canniprene     |    G3K0T4   |      4.53     |
+| 1746 |    Cannflavin A    |    E1CJT4   |      4.53     |
+| 1747 | 6-prenylnaringenin |    Q86YJ6   |      4.53     |
+| 1748 |     Quercetin      |    Q9HAT2   |      4.53     |
+| 1749 |    Cannflavin B    |    B5A979   |      4.53     |
+| 1750 | Cannabistilbene I  |    P19823   |      4.53     |
+| 1751 |     Canniprene     |    P51580   |      4.53     |
+| 1752 | Cannabistilbene I  |    Q6DN72   |      4.53     |
+| 1753 |    Cannflavin B    |    Q03426   |      4.53     |
+| 1754 |     Hesperetin     |    P0DJI8   |      4.53     |
+| 1755 |     Canniprene     |    Q9UM07   |      4.53     |
+| 1756 |     Canniprene     |  A0A1Q2XD95 |      4.53     |
+| 1757 |     Hesperetin     |    Q16552   |      4.53     |
+| 1758 | 6-prenylnaringenin |    Q01201   |      4.53     |
+| 1759 |      Luteolin      |    P36873   |      4.52     |
+| 1760 |     Hesperetin     |    P09603   |      4.52     |
+| 1761 |    Cannflavin C    |    B5A929   |      4.52     |
+| 1762 | Cannabistilbene I  |    B5A929   |      4.52     |
+| 1763 |    Cannflavin C    |    Q6DN72   |      4.52     |
+| 1764 |     Hesperetin     |    P19823   |      4.52     |
+| 1765 |     Hesperetin     |    B5A930   |      4.52     |
+| 1766 | 6-prenylnaringenin |    A0N5G3   |      4.52     |
+| 1767 |     Canniprene     |    Q9Y3Z3   |      4.52     |
+| 1768 | 6-prenylnaringenin |    Q9NY25   |      4.52     |
+| 1769 | 6-prenylnaringenin |    O14802   |      4.52     |
+| 1770 |    Cannflavin C    |    P19823   |      4.52     |
+| 1771 |      Luteolin      |    Q6Q5X5   |      4.52     |
+| 1772 |     Canniprene     |    Q9Y5Q3   |      4.52     |
+| 1773 | 6-prenylnaringenin |    O15553   |      4.52     |
+| 1774 | 6-prenylnaringenin |    P40763   |      4.52     |
+| 1775 |     Hesperetin     |    P48736   |      4.52     |
+| 1776 | 6-prenylnaringenin |    Q14765   |      4.51     |
+| 1777 | 6-prenylnaringenin |    Q8IUL8   |      4.51     |
+| 1778 |     Hesperetin     |    Q6DN72   |      4.51     |
+| 1779 | 6-prenylnaringenin |    P20333   |      4.51     |
+| 1780 |      Luteolin      |    Q9NPA9   |      4.51     |
+| 1781 | 6-prenylnaringenin |    P18510   |      4.51     |
+| 1782 |     Canniprene     |    E1CJT4   |      4.51     |
+| 1783 |    Cannflavin A    |    P01903   |      4.51     |
+| 1784 |      Luteolin      |    P62140   |      4.51     |
+| 1785 |    Cannflavin C    |    B5A936   |      4.51     |
+| 1786 |    Cannflavin C    |    P48736   |      4.51     |
+| 1787 |    Cannflavin C    |    B5A954   |      4.51     |
+| 1788 | Cannabistilbene I  |    B5A936   |      4.51     |
+| 1789 | Cannabistilbene I  |    B5A954   |      4.51     |
+| 1790 |    Cannflavin B    |    Q9UBC1   |      4.51     |
+| 1791 | Cannabistilbene I  |    P45452   |      4.51     |
+| 1792 |     Quercetin      |    Q32MQ0   |      4.51     |
+| 1793 | 6-prenylnaringenin |    Q93099   |      4.51     |
+| 1794 | 6-prenylnaringenin |    P50281   |      4.51     |
+| 1795 |    Cannflavin B    |    Q9Y3Z3   |      4.51     |
+| 1796 |    Cannflavin C    |    P20810   |      4.51     |
+| 1797 |    Cannflavin B    |    P04083   |      4.51     |
+| 1798 |    Cannflavin C    |    B5A953   |      4.51     |
+| 1799 |    Cannflavin C    |    Q96ER3   |      4.51     |
+| 1800 |    Cannflavin C    |    G1UCX3   |      4.51     |
+| 1801 | Cannabistilbene I  |    B5A953   |      4.51     |
+| 1802 |    Cannflavin B    |    Q9Y5Q3   |      4.50     |
+| 1803 | Cannabistilbene I  |    Q96ER3   |      4.50     |
+| 1804 | Cannabistilbene I  |    G1UCX3   |      4.50     |
+| 1805 |     Hesperetin     |    B5A929   |      4.50     |
+| 1806 | 6-prenylnaringenin |    B5A941   |      4.50     |
+| 1807 | 6-prenylnaringenin |    K4RH61   |      4.50     |
+| 1808 |    Cannflavin B    |    P17706   |      4.50     |
+| 1809 |      Luteolin      |    O95865   |      4.50     |
+| 1810 | 6-prenylnaringenin |    Q12884   |      4.50     |
+| 1811 |    Cannflavin B    |    P29460   |      4.50     |
+| 1812 |    Cannflavin B    |  A0A1Q2XDC9 |      4.50     |
+| 1813 |    Cannflavin B    |    Q9Y2R2   |      4.50     |
+| 1814 |    Cannflavin C    |    Q30035   |      4.50     |
+| 1815 | 6-prenylnaringenin |    B5A959   |      4.50     |
+| 1816 | Cannabistilbene I  |    Q30035   |      4.50     |
+| 1817 | 6-prenylnaringenin |    Q12841   |      4.50     |
+| 1818 |    Cannflavin C    |    B5A934   |      4.50     |
+| 1819 | 6-prenylnaringenin |    Q08334   |      4.49     |
+| 1820 | Cannabistilbene I  |    B5A934   |      4.49     |
+| 1821 |    Cannflavin B    |    G3K0T4   |      4.49     |
+| 1822 |    Cannflavin C    |    B5A924   |      4.49     |
+| 1823 |     Hesperetin     |    B5A936   |      4.49     |
+| 1824 |    Cannflavin C    |    Q92805   |      4.49     |
+| 1825 |     Hesperetin     |    B5A954   |      4.49     |
+| 1826 |     Canniprene     |    P01903   |      4.49     |
+| 1827 |    Cannflavin C    |    B5A951   |      4.49     |
+| 1828 |    Cannflavin A    |    P36873   |      4.49     |
+| 1829 |    Cannflavin B    |  A0A1Q2XD95 |      4.49     |
+| 1830 |    Cannflavin A    |    Q9NPA9   |      4.49     |
+| 1831 |      Luteolin      |    Q9HAT2   |      4.49     |
+| 1832 |    Cannflavin C    |    B5A935   |      4.49     |
+| 1833 | 6-prenylnaringenin |    Q92743   |      4.49     |
+| 1834 |     Quercetin      |    O43734   |      4.49     |
+| 1835 |    Cannflavin B    |    Q9UM07   |      4.49     |
+| 1836 | Cannabistilbene I  |    B5A935   |      4.49     |
+| 1837 |     Hesperetin     |    B5A953   |      4.49     |
+| 1838 |     Hesperetin     |    Q96ER3   |      4.49     |
+| 1839 |     Hesperetin     |    G1UCX3   |      4.49     |
+| 1840 | Cannabistilbene I  |    P20810   |      4.49     |
+| 1841 |      Luteolin      |    P62136   |      4.49     |
+| 1842 | Cannabistilbene I  |    B5A951   |      4.49     |
+| 1843 | Cannabistilbene I  |    P53621   |      4.49     |
+| 1844 |    Cannflavin A    |    Q6Q5X5   |      4.49     |
+| 1845 | 6-prenylnaringenin |    Q9BYX4   |      4.48     |
+| 1846 |    Cannflavin C    |    B5A931   |      4.48     |
+| 1847 | 6-prenylnaringenin |    P09326   |      4.48     |
+| 1848 | Cannabistilbene I  |    B5A931   |      4.48     |
+| 1849 |    Cannflavin C    |    B5A960   |      4.48     |
+| 1850 |    Cannflavin C    |    B5A933   |      4.48     |
+| 1851 | Cannabistilbene I  |    B5A933   |      4.48     |
+| 1852 | 6-prenylnaringenin |    B5A943   |      4.48     |
+| 1853 |    Cannflavin C    |    P01375   |      4.48     |
+| 1854 |     Hesperetin     |    Q30035   |      4.48     |
+| 1855 |    Cannflavin B    |    B5A981   |      4.48     |
+| 1856 | 6-prenylnaringenin |    P55085   |      4.48     |
+| 1857 |    Cannflavin C    |    P54762   |      4.48     |
+| 1858 | 6-prenylnaringenin |    P11021   |      4.48     |
+| 1859 | Cannabistilbene I  |    Q92805   |      4.48     |
+| 1860 |    Cannflavin A    |    P62140   |      4.48     |
+| 1861 |    Cannflavin C    |    Q86TM6   |      4.48     |
+| 1862 |     Hesperetin     |    P53621   |      4.48     |
+| 1863 |     Hesperetin     |    B5A934   |      4.48     |
+| 1864 | Cannabistilbene I  |    Q86TM6   |      4.48     |
+| 1865 | Cannabistilbene I  |    B5A924   |      4.48     |
+| 1866 | 6-prenylnaringenin |    P50454   |      4.48     |
+| 1867 |    Cannflavin A    |    O95865   |      4.48     |
+| 1868 | 6-prenylnaringenin |    Q9HB29   |      4.48     |
+| 1869 | Cannabistilbene I  |    B5A960   |      4.48     |
+| 1870 |    Cannflavin C    |    Q86YJ6   |      4.48     |
+| 1871 |     Hesperetin     |    P45452   |      4.48     |
+| 1872 | Cannabistilbene I  |    Q9H015   |      4.47     |
+| 1873 |    Cannflavin C    |    P53621   |      4.47     |
+| 1874 |     Canniprene     |    Q9NPA9   |      4.47     |
+| 1875 |     Hesperetin     |    B5A935   |      4.47     |
+| 1876 | 6-prenylnaringenin |    P05109   |      4.47     |
+| 1877 |    Cannflavin C    |    B5A937   |      4.47     |
+| 1878 | 6-prenylnaringenin |    Q9HCJ1   |      4.47     |
+| 1879 | 6-prenylnaringenin |    Q9BUI4   |      4.47     |
+| 1880 |     Canniprene     |    P36873   |      4.47     |
+| 1881 | Cannabistilbene I  |    B5A937   |      4.47     |
+| 1882 | Cannabistilbene I  |    P54762   |      4.47     |
+| 1883 |    Cannflavin B    |    P51580   |      4.47     |
+| 1884 | 6-prenylnaringenin |    Q8IV20   |      4.47     |
+| 1885 |    Cannflavin B    |    E1CJT4   |      4.47     |
+| 1886 | 6-prenylnaringenin |    P54760   |      4.47     |
+| 1887 |      Luteolin      |    Q32MQ0   |      4.47     |
+| 1888 | 6-prenylnaringenin |    Q9NSU2   |      4.47     |
+| 1889 | Cannabistilbene I  |    P01375   |      4.47     |
+| 1890 |     Hesperetin     |    B5A951   |      4.47     |
+| 1891 |     Hesperetin     |    B5A931   |      4.47     |
+| 1892 |    Cannflavin A    |    Q9HAT2   |      4.47     |
+| 1893 |     Canniprene     |    Q6Q5X5   |      4.47     |
+| 1894 | Cannabistilbene I  |    Q01201   |      4.47     |
+| 1895 |    Cannflavin C    |    P21709   |      4.46     |
+| 1896 |    Cannflavin C    |    Q9H015   |      4.46     |
+| 1897 |     Hesperetin     |    Q9H015   |      4.46     |
+| 1898 |    Cannflavin C    |    B5A939   |      4.46     |
+| 1899 |     Hesperetin     |    B5A933   |      4.46     |
+| 1900 | 6-prenylnaringenin |    O75792   |      4.46     |
+| 1901 | Cannabistilbene I  |    B5A939   |      4.46     |
+| 1902 | Cannabistilbene I  |    Q86YJ6   |      4.46     |
+| 1903 |     Hesperetin     |    P20810   |      4.46     |
+| 1904 | Cannabistilbene I  |    P21709   |      4.46     |
+| 1905 |    Cannflavin B    |    Q9NPA9   |      4.46     |
+| 1906 |     Hesperetin     |    Q86TM6   |      4.46     |
+| 1907 |     Canniprene     |    O95865   |      4.46     |
+| 1908 |     Hesperetin     |    Q01201   |      4.46     |
+| 1909 |     Canniprene     |    P62140   |      4.46     |
+| 1910 |     Hesperetin     |    B5A960   |      4.46     |
+| 1911 |    Cannflavin C    |    Q9NV23   |      4.46     |
+| 1912 |     Hesperetin     |    Q92805   |      4.46     |
+| 1913 | Cannabistilbene I  |    Q9NV23   |      4.46     |
+| 1914 |    Cannflavin C    |    Q5VWK5   |      4.46     |
+| 1915 |    Cannflavin C    |    B5A938   |      4.46     |
+| 1916 | Cannabistilbene I  |    Q5VWK5   |      4.45     |
+| 1917 |     Hesperetin     |    B5A924   |      4.45     |
+| 1918 |    Cannflavin A    |    P62136   |      4.45     |
+| 1919 |     Quercetin      |    G1UD79   |      4.45     |
+| 1920 | Cannabistilbene I  |    B5A938   |      4.45     |
+| 1921 |     Hesperetin     |    P40763   |      4.45     |
+| 1922 |    Cannflavin C    |    Q01201   |      4.45     |
+| 1923 |     Hesperetin     |    B5A937   |      4.45     |
+| 1924 | 6-prenylnaringenin |    B5A942   |      4.45     |
+| 1925 | 6-prenylnaringenin |    B5A961   |      4.45     |
+| 1926 | Cannabistilbene I  |    Q93099   |      4.45     |
+| 1927 |    Cannflavin C    |    Q9NY25   |      4.45     |
+| 1928 | 6-prenylnaringenin |    Q9BV73   |      4.45     |
+| 1929 | Cannabistilbene I  |    P40763   |      4.45     |
+| 1930 | Cannabistilbene I  |    P18510   |      4.45     |
+| 1931 |      Luteolin      |    O43734   |      4.45     |
+| 1932 |     Canniprene     |    Q9HAT2   |      4.45     |
+| 1933 |     Hesperetin     |    P54762   |      4.45     |
+| 1934 | Cannabistilbene I  |    Q9NY25   |      4.45     |
+| 1935 |    Cannflavin C    |    O15553   |      4.45     |
+| 1936 |    Cannflavin B    |    P01903   |      4.45     |
+| 1937 | Cannabistilbene I  |    O15553   |      4.45     |
+| 1938 |     Hesperetin     |    B5A939   |      4.45     |
+| 1939 |    Cannflavin C    |    Q93099   |      4.45     |
+| 1940 |     Hesperetin     |    P01375   |      4.45     |
+| 1941 | 6-prenylnaringenin |    Q8TCW3   |      4.44     |
+| 1942 |    Cannflavin C    |    P20333   |      4.44     |
+| 1943 |     Hesperetin     |    Q86YJ6   |      4.44     |
+| 1944 |    Cannflavin C    |    A0N5G3   |      4.44     |
+| 1945 |    Cannflavin A    |    Q32MQ0   |      4.44     |
+| 1946 | Cannabistilbene I  |    A0N5G3   |      4.44     |
+| 1947 |    Cannflavin C    |    P18510   |      4.44     |
+| 1948 | Cannabistilbene I  |    P20333   |      4.44     |
+| 1949 |     Hesperetin     |    P18510   |      4.44     |
+| 1950 | 6-prenylnaringenin |    B5A940   |      4.44     |
+| 1951 | 6-prenylnaringenin |    O75339   |      4.44     |
+| 1952 |     Hesperetin     |    P21709   |      4.44     |
+| 1953 |     Hesperetin     |    Q9NV23   |      4.44     |
+| 1954 | Cannabistilbene I  |    Q12884   |      4.44     |
+| 1955 |    Cannflavin C    |    O14802   |      4.44     |
+| 1956 |    Cannflavin C    |    Q14765   |      4.44     |
+| 1957 |     Hesperetin     |    B5A938   |      4.44     |
+| 1958 |     Hesperetin     |    Q5VWK5   |      4.44     |
+| 1959 |    Cannflavin C    |    Q12841   |      4.44     |
+| 1960 | Cannabistilbene I  |    O14802   |      4.44     |
+| 1961 | 6-prenylnaringenin |    P14780   |      4.44     |
+| 1962 | Cannabistilbene I  |    Q14765   |      4.44     |
+| 1963 |     Hesperetin     |    Q93099   |      4.44     |
+| 1964 |    Cannflavin C    |    Q8IUL8   |      4.44     |
+| 1965 | Cannabistilbene I  |    Q8IUL8   |      4.44     |
+| 1966 |    Cannflavin B    |    O95865   |      4.44     |
+| 1967 | 6-prenylnaringenin |    O14879   |      4.43     |
+| 1968 | 6-prenylnaringenin |    P02794   |      4.43     |
+| 1969 |     Canniprene     |    P62136   |      4.43     |
+| 1970 |    Cannflavin B    |    Q9HAT2   |      4.43     |
+| 1971 |     Hesperetin     |    Q9NY25   |      4.43     |
+| 1972 |     Hesperetin     |    O15553   |      4.43     |
+| 1973 |     Hesperetin     |    Q12884   |      4.43     |
+| 1974 |    Cannflavin C    |    P50281   |      4.43     |
+| 1975 |    Cannflavin C    |    P40763   |      4.43     |
+| 1976 | Cannabistilbene I  |    Q12841   |      4.43     |
+| 1977 | Cannabistilbene I  |    P50281   |      4.43     |
+| 1978 | 6-prenylnaringenin |    O43586   |      4.43     |
+| 1979 |    Cannflavin C    |    B5A941   |      4.43     |
+| 1980 | Cannabistilbene I  |    B5A941   |      4.43     |
+| 1981 |    Cannflavin C    |    K4RH61   |      4.43     |
+| 1982 |     Hesperetin     |    A0N5G3   |      4.43     |
+| 1983 | Cannabistilbene I  |    K4RH61   |      4.43     |
+| 1984 |     Hesperetin     |    P20333   |      4.43     |
+| 1985 |    Cannflavin A    |    O43734   |      4.43     |
+| 1986 |     Canniprene     |    Q32MQ0   |      4.42     |
+| 1987 | 6-prenylnaringenin |    Q8TCW4   |      4.42     |
+| 1988 |    Cannflavin C    |    P54760   |      4.42     |
+| 1989 |    Cannflavin B    |    Q6Q5X5   |      4.42     |
+| 1990 |    Cannflavin C    |    Q12884   |      4.42     |
+| 1991 |     Hesperetin     |    Q14765   |      4.42     |
+| 1992 |    Cannflavin B    |    P36873   |      4.42     |
+| 1993 |     Hesperetin     |    O14802   |      4.42     |
+| 1994 |     Hesperetin     |    Q8IUL8   |      4.42     |
+| 1995 | 6-prenylnaringenin |    P02766   |      4.42     |
+| 1996 | Cannabistilbene I  |    Q92743   |      4.42     |
+| 1997 |    Cannflavin C    |    Q92743   |      4.42     |
+| 1998 |    Cannflavin C    |    B5A959   |      4.42     |
+| 1999 |    Cannflavin B    |    P62140   |      4.42     |
+| 2000 | Cannabistilbene I  |    B5A959   |      4.42     |
+| 2001 | 6-prenylnaringenin |    Q29980   |      4.42     |
+| 2002 | 6-prenylnaringenin |    P31994   |      4.42     |
+| 2003 |    Cannflavin C    |    Q08334   |      4.42     |
+| 2004 |    Cannflavin C    |    P55085   |      4.42     |
+| 2005 | Cannabistilbene I  |    Q08334   |      4.42     |
+| 2006 | Cannabistilbene I  |    P50454   |      4.41     |
+| 2007 |    Cannflavin C    |    P05109   |      4.41     |
+| 2008 |      Luteolin      |    G1UD79   |      4.41     |
+| 2009 | 6-prenylnaringenin |    Q96GV9   |      4.41     |
+| 2010 |    Cannflavin B    |    Q32MQ0   |      4.41     |
+| 2011 | Cannabistilbene I  |    Q9HB29   |      4.41     |
+| 2012 |     Hesperetin     |    P50281   |      4.41     |
+| 2013 |     Hesperetin     |    B5A941   |      4.41     |
+| 2014 |    Cannflavin C    |    P09326   |      4.41     |
+| 2015 | Cannabistilbene I  |    P09326   |      4.41     |
+| 2016 | Cannabistilbene I  |    P55085   |      4.41     |
+| 2017 |     Hesperetin     |    Q12841   |      4.41     |
+| 2018 |    Cannflavin C    |    Q9BYX4   |      4.41     |
+| 2019 |     Hesperetin     |    K4RH61   |      4.41     |
+| 2020 |     Hesperetin     |    P50454   |      4.41     |
+| 2021 | Cannabistilbene I  |    Q9BYX4   |      4.41     |
+| 2022 |     Canniprene     |    O43734   |      4.41     |
+| 2023 |    Cannflavin C    |    P11021   |      4.41     |
+| 2024 | Cannabistilbene I  |    P05109   |      4.41     |
+| 2025 | Cannabistilbene I  |    P11021   |      4.41     |
+| 2026 |    Cannflavin C    |    Q9HB29   |      4.40     |
+| 2027 |    Cannflavin C    |    P50454   |      4.40     |
+| 2028 | 6-prenylnaringenin |    Q9NZH6   |      4.40     |
+| 2029 |    Cannflavin C    |    B5A943   |      4.40     |
+| 2030 |    Cannflavin C    |    Q9NSU2   |      4.40     |
+| 2031 |     Hesperetin     |    Q92743   |      4.40     |
+| 2032 | Cannabistilbene I  |    B5A943   |      4.40     |
+| 2033 |     Hesperetin     |    Q9HB29   |      4.40     |
+| 2034 | Cannabistilbene I  |    P54760   |      4.40     |
+| 2035 |     Hesperetin     |    B5A959   |      4.40     |
+| 2036 | 6-prenylnaringenin |    Q96EB6   |      4.40     |
+| 2037 |    Cannflavin C    |    P14780   |      4.40     |
+| 2038 |     Hesperetin     |    Q08334   |      4.40     |
+| 2039 | Cannabistilbene I  |    Q9NSU2   |      4.40     |
+| 2040 | Cannabistilbene I  |    Q8IV20   |      4.40     |
+| 2041 |    Cannflavin C    |    Q9BUI4   |      4.40     |
+| 2042 |     Hesperetin     |    P09326   |      4.40     |
+| 2043 | Cannabistilbene I  |    Q9BUI4   |      4.39     |
+| 2044 |    Cannflavin C    |    Q8IV20   |      4.39     |
+| 2045 |    Cannflavin C    |    Q9HCJ1   |      4.39     |
+| 2046 |    Cannflavin B    |    O43734   |      4.39     |
+| 2047 |     Hesperetin     |    P55085   |      4.39     |
+| 2048 | 6-prenylnaringenin |    Q9Y5Q3   |      4.39     |
+| 2049 | Cannabistilbene I  |    Q9HCJ1   |      4.39     |
+| 2050 | 6-prenylnaringenin |    Q9Y2G2   |      4.39     |
+| 2051 |     Hesperetin     |    Q9BYX4   |      4.39     |
+| 2052 |    Cannflavin B    |    P62136   |      4.39     |
+| 2053 |    Cannflavin A    |    G1UD79   |      4.39     |
+| 2054 |     Hesperetin     |    P11021   |      4.39     |
+| 2055 |    Cannflavin C    |    O75792   |      4.39     |
+| 2056 | Cannabistilbene I  |    O75792   |      4.39     |
+| 2057 |     Hesperetin     |    P05109   |      4.39     |
+| 2058 | 6-prenylnaringenin |    Q8NIA0   |      4.39     |
+| 2059 |    Cannflavin C    |    B5A961   |      4.39     |
+| 2060 | 6-prenylnaringenin |    B5A982   |      4.39     |
+| 2061 | 6-prenylnaringenin |    P50148   |      4.39     |
+| 2062 | 6-prenylnaringenin |    Q7LGC8   |      4.39     |
+| 2063 |     Hesperetin     |    B5A943   |      4.39     |
+| 2064 | 6-prenylnaringenin |    Q13501   |      4.39     |
+| 2065 | 6-prenylnaringenin |    Q29983   |      4.38     |
+| 2066 | Cannabistilbene I  |    B5A961   |      4.38     |
+| 2067 |     Hesperetin     |    Q8IV20   |      4.38     |
+| 2068 |     Hesperetin     |    Q9NSU2   |      4.38     |
+| 2069 | 6-prenylnaringenin |    B5A958   |      4.38     |
+| 2070 | 6-prenylnaringenin |    Q9Y3Z3   |      4.38     |
+| 2071 |     Hesperetin     |    Q9BUI4   |      4.38     |
+| 2072 |     Hesperetin     |    P54760   |      4.38     |
+| 2073 | 6-prenylnaringenin |    P40189   |      4.38     |
+| 2074 |     Hesperetin     |    Q9HCJ1   |      4.38     |
+| 2075 |    Cannflavin C    |    B5A942   |      4.38     |
+| 2076 | Cannabistilbene I  |    B5A942   |      4.38     |
+| 2077 | 6-prenylnaringenin |    B5A963   |      4.38     |
+| 2078 | Cannabistilbene I  |    P14780   |      4.38     |
+| 2079 |     Canniprene     |    G1UD79   |      4.37     |
+| 2080 | 6-prenylnaringenin |    P20963   |      4.37     |
+| 2081 |     Hesperetin     |    O75792   |      4.37     |
+| 2082 | 6-prenylnaringenin |    B5A962   |      4.37     |
+| 2083 | Cannabistilbene I  |    O43586   |      4.37     |
+| 2084 |    Cannflavin C    |    P02766   |      4.37     |
+| 2085 |    Cannflavin C    |    Q8TCW3   |      4.37     |
+| 2086 | 6-prenylnaringenin |    Q9UP07   |      4.37     |
+| 2087 |     Hesperetin     |    B5A961   |      4.37     |
+| 2088 | Cannabistilbene I  |    Q8TCW3   |      4.37     |
+| 2089 |    Cannflavin C    |    B5A940   |      4.37     |
+| 2090 |    Cannflavin C    |    P02794   |      4.36     |
+| 2091 |    Cannflavin C    |    Q8TCW4   |      4.36     |
+| 2092 | Cannabistilbene I  |    B5A940   |      4.36     |
+| 2093 |     Hesperetin     |    O43586   |      4.36     |
+| 2094 | Cannabistilbene I  |    P02794   |      4.36     |
+| 2095 |    Cannflavin B    |    G1UD79   |      4.36     |
+| 2096 | 6-prenylnaringenin |    Q99542   |      4.36     |
+| 2097 | Cannabistilbene I  |    O75339   |      4.36     |
+| 2098 |    Cannflavin C    |    O14879   |      4.36     |
+| 2099 |     Hesperetin     |    B5A942   |      4.36     |
+| 2100 | Cannabistilbene I  |    O14879   |      4.36     |
+| 2101 | 6-prenylnaringenin |    Q8TDP1   |      4.36     |
+| 2102 | 6-prenylnaringenin |    Q8TCW2   |      4.36     |
+| 2103 | Cannabistilbene I  |    P02766   |      4.36     |
+| 2104 | Cannabistilbene I  |    Q8TCW4   |      4.36     |
+| 2105 | 6-prenylnaringenin |    Q9NPA9   |      4.36     |
+| 2106 |    Cannflavin C    |    O75339   |      4.36     |
+| 2107 | 6-prenylnaringenin |    P02747   |      4.36     |
+| 2108 |    Cannflavin C    |    O43586   |      4.36     |
+| 2109 | 6-prenylnaringenin |    P09429   |      4.35     |
+| 2110 |     Hesperetin     |    Q8TCW3   |      4.35     |
+| 2111 |     Hesperetin     |    P14780   |      4.35     |
+| 2112 |     Hesperetin     |    B5A940   |      4.35     |
+| 2113 |     Hesperetin     |    P02794   |      4.35     |
+| 2114 |     Hesperetin     |    O75339   |      4.35     |
+| 2115 |     Hesperetin     |    O14879   |      4.35     |
+| 2116 | 6-prenylnaringenin |    P08253   |      4.34     |
+| 2117 | Cannabistilbene I  |    Q9NZH6   |      4.34     |
+| 2118 | 6-prenylnaringenin |    P78536   |      4.34     |
+| 2119 | Cannabistilbene I  |    Q9BV73   |      4.34     |
+| 2120 |    Cannflavin C    |    Q29980   |      4.34     |
+| 2121 | Cannabistilbene I  |    P31994   |      4.34     |
+| 2122 | Cannabistilbene I  |    Q29980   |      4.34     |
+| 2123 |    Cannflavin C    |    P31994   |      4.34     |
+| 2124 |     Hesperetin     |    Q8TCW4   |      4.34     |
+| 2125 | Cannabistilbene I  |    Q96EB6   |      4.34     |
+| 2126 | 6-prenylnaringenin |    B5A978   |      4.34     |
+| 2127 | Cannabistilbene I  |    Q9Y5Q3   |      4.34     |
+| 2128 |     Hesperetin     |    P02766   |      4.34     |
+| 2129 |     Hesperetin     |    Q9NZH6   |      4.34     |
+| 2130 | Cannabistilbene I  |    Q96GV9   |      4.34     |
+| 2131 |    Cannflavin C    |    Q96GV9   |      4.33     |
+| 2132 |    Cannflavin C    |    Q9NZH6   |      4.33     |
+| 2133 |     Hesperetin     |    Q96EB6   |      4.33     |
+| 2134 |     Hesperetin     |    Q9BV73   |      4.33     |
+| 2135 |     Hesperetin     |    Q9Y5Q3   |      4.33     |
+| 2136 | 6-prenylnaringenin |    P41240   |      4.33     |
+| 2137 |    Cannflavin C    |    Q8NIA0   |      4.33     |
+| 2138 |    Cannflavin C    |    B5A982   |      4.33     |
+| 2139 |    Cannflavin C    |    Q96EB6   |      4.33     |
+| 2140 | 6-prenylnaringenin |    Q9NZH7   |      4.33     |
+| 2141 |     Hesperetin     |    P31994   |      4.33     |
+| 2142 |     Hesperetin     |    Q29980   |      4.33     |
+| 2143 |     Quercetin      |    Q9NZ20   |      4.33     |
+| 2144 | Cannabistilbene I  |    Q7LGC8   |      4.32     |
+| 2145 | Cannabistilbene I  |    Q8NIA0   |      4.32     |
+| 2146 | Cannabistilbene I  |    B5A982   |      4.32     |
+| 2147 |     Hesperetin     |    Q96GV9   |      4.32     |
+| 2148 |    Cannflavin C    |    Q9Y5Q3   |      4.32     |
+| 2149 | Cannabistilbene I  |    Q9Y2G2   |      4.32     |
+| 2150 |    Cannflavin C    |    Q9Y2G2   |      4.32     |
+| 2151 | Cannabistilbene I  |    Q9Y3Z3   |      4.32     |
+| 2152 |    Cannflavin C    |    P08253   |      4.32     |
+| 2153 | 6-prenylnaringenin |    Q9UM07   |      4.32     |
+| 2154 |    Cannflavin C    |    Q9BV73   |      4.32     |
+| 2155 |     Hesperetin     |    Q7LGC8   |      4.31     |
+| 2156 | Cannabistilbene I  |    Q13501   |      4.31     |
+| 2157 | Cannabistilbene I  |    P50148   |      4.31     |
+| 2158 | Cannabistilbene I  |    P20963   |      4.31     |
+| 2159 | 6-prenylnaringenin |    Q8TD31   |      4.31     |
+| 2160 |     Hesperetin     |    Q9Y3Z3   |      4.31     |
+| 2161 |    Cannflavin C    |    P50148   |      4.31     |
+| 2162 |    Cannflavin C    |    B5A963   |      4.31     |
+| 2163 | Cannabistilbene I  |    B5A963   |      4.31     |
+| 2164 | Cannabistilbene I  |    B5A958   |      4.31     |
+| 2165 |     Hesperetin     |    Q8NIA0   |      4.31     |
+| 2166 |    Cannflavin C    |    Q13501   |      4.31     |
+| 2167 | 6-prenylnaringenin |  A0A1Q2XD95 |      4.31     |
+| 2168 |     Hesperetin     |    B5A982   |      4.31     |
+| 2169 | Cannabistilbene I  |    Q29983   |      4.31     |
+| 2170 |    Cannflavin C    |    Q7LGC8   |      4.31     |
+| 2171 |    Cannflavin C    |    P20963   |      4.31     |
+| 2172 | 6-prenylnaringenin |    B5A980   |      4.30     |
+| 2173 | Cannabistilbene I  |    P40189   |      4.30     |
+| 2174 |     Hesperetin     |    Q9Y2G2   |      4.30     |
+| 2175 |     Hesperetin     |    P20963   |      4.30     |
+| 2176 |    Cannflavin C    |    B5A958   |      4.30     |
+| 2177 | 6-prenylnaringenin |  A0A1Q2XDC9 |      4.30     |
+| 2178 | 6-prenylnaringenin |    Q9HAT2   |      4.30     |
+| 2179 | 6-prenylnaringenin |    Q9Y2R2   |      4.30     |
+| 2180 |     Hesperetin     |    Q13501   |      4.30     |
+| 2181 |    Cannflavin C    |    P78536   |      4.30     |
+| 2182 |     Hesperetin     |    P50148   |      4.30     |
+| 2183 | Cannabistilbene I  |    B5A962   |      4.30     |
+| 2184 | 6-prenylnaringenin |    G3K0T4   |      4.30     |
+| 2185 |    Cannflavin C    |    P40189   |      4.30     |
+| 2186 | Cannabistilbene I  |    Q9UP07   |      4.30     |
+| 2187 |    Cannflavin C    |    Q8TCW2   |      4.30     |
+| 2188 |    Cannflavin C    |    Q9Y3Z3   |      4.30     |
+| 2189 |    Cannflavin C    |    B5A962   |      4.30     |
+| 2190 |    Cannflavin C    |    Q9UP07   |      4.30     |
+| 2191 | 6-prenylnaringenin |    Q03426   |      4.30     |
+| 2192 | Cannabistilbene I  |    Q9NPA9   |      4.29     |
+| 2193 |     Quercetin      |    G1UD80   |      4.29     |
+| 2194 |     Hesperetin     |    Q29983   |      4.29     |
+| 2195 |     Hesperetin     |    Q9NPA9   |      4.29     |
+| 2196 | 6-prenylnaringenin |    Q32MQ0   |      4.29     |
+| 2197 | Cannabistilbene I  |    Q8TCW2   |      4.29     |
+| 2198 |     Hesperetin     |    B5A963   |      4.29     |
+| 2199 |     Hesperetin     |    B5A958   |      4.29     |
+| 2200 | 6-prenylnaringenin |    Q9UBC1   |      4.29     |
+| 2201 | 6-prenylnaringenin |    P04083   |      4.29     |
+| 2202 | Cannabistilbene I  |    Q8TDP1   |      4.29     |
+| 2203 |     Hesperetin     |    P40189   |      4.29     |
+| 2204 | Cannabistilbene I  |    Q99542   |      4.29     |
+| 2205 | Cannabistilbene I  |    P08253   |      4.29     |
+| 2206 |    Cannflavin C    |    Q29983   |      4.29     |
+| 2207 | 6-prenylnaringenin |    O95865   |      4.29     |
+| 2208 |    Cannflavin C    |    Q8TDP1   |      4.29     |
+| 2209 | Cannabistilbene I  |    P78536   |      4.29     |
+| 2210 | 6-prenylnaringenin |    B5A979   |      4.29     |
+| 2211 |    Cannflavin C    |    P41240   |      4.29     |
+| 2212 |      Luteolin      |    Q9NZ20   |      4.29     |
+| 2213 |    Cannflavin C    |    Q99542   |      4.29     |
+| 2214 |     Hesperetin     |    B5A962   |      4.28     |
+| 2215 |     Hesperetin     |    Q9UP07   |      4.28     |
+| 2216 |    Cannflavin C    |    B5A978   |      4.28     |
+| 2217 | 6-prenylnaringenin |    E1CJT4   |      4.28     |
+| 2218 | Cannabistilbene I  |    P09429   |      4.28     |
+| 2219 |    Cannflavin C    |    Q9NPA9   |      4.28     |
+| 2220 |     Hesperetin     |    Q8TCW2   |      4.28     |
+| 2221 | Cannabistilbene I  |    B5A978   |      4.27     |
+| 2222 | Cannabistilbene I  |    P02747   |      4.27     |
+| 2223 |    Cannflavin C    |    P09429   |      4.27     |
+| 2224 |     Hesperetin     |    Q99542   |      4.27     |
+| 2225 |     Hesperetin     |    Q8TDP1   |      4.27     |
+| 2226 | 6-prenylnaringenin |    O43734   |      4.27     |
+| 2227 | 6-prenylnaringenin |    P29460   |      4.27     |
+| 2228 |     Hesperetin     |    P78536   |      4.27     |
+| 2229 | Cannabistilbene I  |    P41240   |      4.27     |
+| 2230 |     Hesperetin     |    P09429   |      4.26     |
+| 2231 |     Hesperetin     |    P02747   |      4.26     |
+| 2232 |     Hesperetin     |    P08253   |      4.26     |
+| 2233 |    Cannflavin A    |    Q9NZ20   |      4.26     |
+| 2234 |    Cannflavin C    |    P02747   |      4.26     |
+| 2235 |     Hesperetin     |    B5A978   |      4.26     |
+| 2236 | 6-prenylnaringenin |    P01903   |      4.25     |
+| 2237 | Cannabistilbene I  |    Q9NZH7   |      4.25     |
+| 2238 |      Luteolin      |    G1UD80   |      4.25     |
+| 2239 | 6-prenylnaringenin |    P17706   |      4.25     |
+| 2240 | 6-prenylnaringenin |    G1UD79   |      4.25     |
+| 2241 | Cannabistilbene I  |    Q8TD31   |      4.25     |
+| 2242 |    Cannflavin C    |    Q9NZH7   |      4.25     |
+| 2243 |     Hesperetin     |    P41240   |      4.25     |
+| 2244 | Cannabistilbene I  |    Q9HAT2   |      4.24     |
+| 2245 |     Canniprene     |    Q9NZ20   |      4.24     |
+| 2246 |    Cannflavin C    |    Q8TD31   |      4.24     |
+| 2247 | 6-prenylnaringenin |    B5A981   |      4.24     |
+| 2248 |     Hesperetin     |    Q9NZH7   |      4.24     |
+| 2249 |     Hesperetin     |    Q9HAT2   |      4.24     |
+| 2250 |    Cannflavin A    |    G1UD80   |      4.23     |
+| 2251 |     Hesperetin     |    Q8TD31   |      4.23     |
+| 2252 | 6-prenylnaringenin |    P51580   |      4.23     |
+| 2253 | 6-prenylnaringenin |    Q6Q5X5   |      4.23     |
+| 2254 |    Cannflavin C    |    Q9HAT2   |      4.23     |
+| 2255 |    Cannflavin B    |    Q9NZ20   |      4.23     |
+| 2256 | Cannabistilbene I  |    B5A980   |      4.23     |
+| 2257 | 6-prenylnaringenin |    P62140   |      4.22     |
+| 2258 | Cannabistilbene I  |    B5A979   |      4.22     |
+| 2259 |    Cannflavin C    |    B5A979   |      4.22     |
+| 2260 |    Cannflavin C    |    B5A980   |      4.22     |
+| 2261 | Cannabistilbene I  |    Q03426   |      4.22     |
+| 2262 | Cannabistilbene I  |    Q32MQ0   |      4.22     |
+| 2263 |     Canniprene     |    G1UD80   |      4.22     |
+| 2264 | Cannabistilbene I  |    P04083   |      4.22     |
+| 2265 | Cannabistilbene I  |    O43734   |      4.21     |
+| 2266 |    Cannflavin C    |    Q03426   |      4.21     |
+| 2267 |     Hesperetin     |    B5A980   |      4.21     |
+| 2268 | Cannabistilbene I  |    Q9UM07   |      4.21     |
+| 2269 |     Hesperetin     |    Q32MQ0   |      4.21     |
+| 2270 |     Hesperetin     |    O43734   |      4.21     |
+| 2271 |    Cannflavin C    |    P04083   |      4.21     |
+| 2272 | Cannabistilbene I  |    Q9UBC1   |      4.21     |
+| 2273 | Cannabistilbene I  |    O95865   |      4.21     |
+| 2274 |     Hesperetin     |    B5A979   |      4.21     |
+| 2275 |    Cannflavin C    |    P17706   |      4.21     |
+| 2276 |     Hesperetin     |    Q03426   |      4.20     |
+| 2277 |     Hesperetin     |    Q9UM07   |      4.20     |
+| 2278 |    Cannflavin C    |    Q9UBC1   |      4.20     |
+| 2279 |     Hesperetin     |    P04083   |      4.20     |
+| 2280 |     Hesperetin     |    O95865   |      4.20     |
+| 2281 | 6-prenylnaringenin |    P36873   |      4.20     |
+| 2282 |     Quercetin      |    Q9BZS1   |      4.20     |
+| 2283 |    Cannflavin B    |    G1UD80   |      4.20     |
+| 2284 | 6-prenylnaringenin |    P62136   |      4.20     |
+| 2285 |     Hesperetin     |    Q9UBC1   |      4.20     |
+| 2286 |    Cannflavin C    |    Q9UM07   |      4.19     |
+| 2287 | Cannabistilbene I  |    P29460   |      4.19     |
+| 2288 | Cannabistilbene I  |    P17706   |      4.19     |
+| 2289 |    Cannflavin C    |    Q32MQ0   |      4.19     |
+| 2290 | Cannabistilbene I  |    E1CJT4   |      4.19     |
+| 2291 |    Cannflavin C    |    O95865   |      4.19     |
+| 2292 |     Hesperetin     |    G1UD79   |      4.19     |
+| 2293 | Cannabistilbene I  |    G1UD79   |      4.19     |
+| 2294 | Cannabistilbene I  |  A0A1Q2XD95 |      4.19     |
+| 2295 |    Cannflavin C    |    O43734   |      4.19     |
+| 2296 |    Cannflavin C    |    P29460   |      4.19     |
+| 2297 | Cannabistilbene I  |  A0A1Q2XDC9 |      4.18     |
+| 2298 | Cannabistilbene I  |    Q9Y2R2   |      4.18     |
+| 2299 |     Hesperetin     |    E1CJT4   |      4.18     |
+| 2300 |     Hesperetin     |  A0A1Q2XD95 |      4.18     |
+| 2301 |     Hesperetin     |    P29460   |      4.18     |
+| 2302 | Cannabistilbene I  |    G3K0T4   |      4.18     |
+| 2303 |    Cannflavin C    |    E1CJT4   |      4.18     |
+| 2304 |     Hesperetin     |  A0A1Q2XDC9 |      4.17     |
+| 2305 |     Hesperetin     |    P17706   |      4.17     |
+| 2306 |     Hesperetin     |    Q9Y2R2   |      4.17     |
+| 2307 |     Hesperetin     |    G3K0T4   |      4.17     |
+| 2308 |    Cannflavin C    |  A0A1Q2XD95 |      4.17     |
+| 2309 |    Cannflavin C    |  A0A1Q2XDC9 |      4.17     |
+| 2310 | Cannabistilbene I  |    B5A981   |      4.16     |
+| 2311 |    Cannflavin C    |    Q9Y2R2   |      4.16     |
+| 2312 |    Cannflavin C    |    G1UD79   |      4.16     |
+| 2313 |    Cannflavin C    |    G3K0T4   |      4.16     |
+| 2314 |    Cannflavin C    |    B5A981   |      4.16     |
+| 2315 | Cannabistilbene I  |    P51580   |      4.16     |
+| 2316 |      Luteolin      |    Q9BZS1   |      4.16     |
+| 2317 |    Cannflavin C    |    P51580   |      4.15     |
+| 2318 |     Hesperetin     |    B5A981   |      4.15     |
+| 2319 | Cannabistilbene I  |    P01903   |      4.15     |
+| 2320 |     Hesperetin     |    P51580   |      4.14     |
+| 2321 |     Hesperetin     |    P01903   |      4.14     |
+| 2322 |    Cannflavin C    |    P01903   |      4.13     |
+| 2323 |    Cannflavin A    |    Q9BZS1   |      4.13     |
+| 2324 | Cannabistilbene I  |    Q6Q5X5   |      4.12     |
+| 2325 |     Canniprene     |    Q9BZS1   |      4.11     |
+| 2326 | Cannabistilbene I  |    P62140   |      4.11     |
+| 2327 |     Hesperetin     |    Q6Q5X5   |      4.11     |
+| 2328 |     Hesperetin     |    P62140   |      4.10     |
+| 2329 |    Cannflavin C    |    Q6Q5X5   |      4.10     |
+| 2330 |    Cannflavin C    |    P62140   |      4.10     |
+| 2331 | 6-prenylnaringenin |    Q9NZ20   |      4.10     |
+| 2332 | Cannabistilbene I  |    P36873   |      4.10     |
+| 2333 |    Cannflavin C    |    P36873   |      4.09     |
+| 2334 |    Cannflavin B    |    Q9BZS1   |      4.09     |
+| 2335 | Cannabistilbene I  |    P62136   |      4.08     |
+| 2336 |     Hesperetin     |    P36873   |      4.08     |
+| 2337 | 6-prenylnaringenin |    G1UD80   |      4.08     |
+| 2338 |     Hesperetin     |    P62136   |      4.07     |
+| 2339 |    Cannflavin C    |    P62136   |      4.07     |
+| 2340 | Cannabistilbene I  |    Q9NZ20   |      4.00     |
+| 2341 |     Hesperetin     |    Q9NZ20   |      4.00     |
+| 2342 | Cannabistilbene I  |    G1UD80   |      3.99     |
+| 2343 |     Hesperetin     |    G1UD80   |      3.99     |
+| 2344 |    Cannflavin C    |    Q9NZ20   |      3.98     |
+| 2345 |    Cannflavin C    |    G1UD80   |      3.97     |
+| 2346 | 6-prenylnaringenin |    Q9BZS1   |      3.95     |
+| 2347 |     Quercetin      |    P02458   |      3.94     |
+| 2348 |      Luteolin      |    P02458   |      3.89     |
+| 2349 | Cannabistilbene I  |    Q9BZS1   |      3.86     |
+| 2350 |    Cannflavin A    |    P02458   |      3.86     |
+| 2351 |     Hesperetin     |    Q9BZS1   |      3.86     |
+| 2352 |     Canniprene     |    P02458   |      3.84     |
+| 2353 |    Cannflavin C    |    Q9BZS1   |      3.84     |
+| 2354 |    Cannflavin B    |    P02458   |      3.81     |
+| 2355 | 6-prenylnaringenin |    P02458   |      3.67     |
+| 2356 | Cannabistilbene I  |    P02458   |      3.59     |
+| 2357 |     Hesperetin     |    P02458   |      3.59     |
+| 2358 |    Cannflavin C    |    P02458   |      3.58     |
++------+--------------------+-------------+---------------+

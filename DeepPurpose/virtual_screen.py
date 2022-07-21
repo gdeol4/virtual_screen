@@ -1,62 +1,38 @@
 import pandas as pd
+import tools.extract as extract
+import tools.transform as transform
+import tools.protein_cleaning as pipeline
 from DeepPurpose import DTI as models
-targets = pd.read_csv(r'./Data/csv/disease_targets.csv')
-df_drugs = pd.read_csv('cann_mols.csv') 
 
-targets['drug_name'] = df_drugs['Name'][0]
-targets['SMILES'] = df_drugs['SMILES'][0]
+#read in data
+arthritis_data = 'data/fasta/arthritis.fasta'
+cardiovascular_data = 'data/fasta/cardiovascular.fasta'
+cytokine_data = 'data/fasta/cytokine.fasta'
+disease_data = 'data/fasta/disease.fasta'
+inflammation_data = 'data/fasta/inflammation.fasta'
+drug_data = pd.read_csv('data/csv/cann_mols.csv')
 
-df_targets_2 = targets.copy()
-df_targets_2['drug_name'] = df_drugs['Name'][1]
-df_targets_2['SMILES'] = df_drugs['SMILES'][1]
+# change dataset here
+protein_df = extract.loading_fasta(arthritis_data)
 
-df_targets_3 = targets.copy()
-df_targets_3['drug_name'] = df_drugs['Name'][2]
-df_targets_3['SMILES'] = df_drugs['SMILES'][2]
+# produce model ready protein set
+clean_proteins = (protein_df.
+                 pipe(extract.info_parser).
+                 pipe(transform.info_pre_processed).
+                 pipe(transform.info_processed_cyto_arth, protein_df))
 
-df_targets_4 = targets.copy()
-df_targets_4['drug_name'] = df_drugs['Name'][3]
-df_targets_4['SMILES'] = df_drugs['SMILES'][3]
+# subset dataframe
+clean_proteins = clean_proteins[['id','sequence']]
 
-df_targets_5 = targets.copy()
-df_targets_5['drug_name'] = df_drugs['Name'][4]
-df_targets_5['SMILES'] = df_drugs['SMILES'][4]
+#create dataset with all drug target pairs
+targets = pipeline.create_drug_target_pairs(clean_proteins, drug_data)
 
-df_targets_6 = targets.copy()
-df_targets_6['drug_name'] = df_drugs['Name'][5]
-df_targets_6['SMILES'] = df_drugs['SMILES'][5]
+#extract lists
+targets = pipeline.make_lists(targets)
 
-df_targets_7 = targets.copy()
-df_targets_7['drug_name'] = df_drugs['Name'][6]
-df_targets_7['SMILES'] = df_drugs['SMILES'][6]
+# chose model
+net = models.model_pretrained(model = 'Daylight_AAC_BindingDB_IC50')
 
-df_targets_8 = targets.copy()
-df_targets_8['drug_name'] = df_drugs['Name'][7]
-df_targets_8['SMILES'] = df_drugs['SMILES'][7]
+# perform virtual screen
+_ = models.virtual_screening(targets[0], targets[1], net, targets[2], targets[3])
 
-df_targets_9 = targets.copy()
-df_targets_9['drug_name'] = df_drugs['Name'][8]
-df_targets_9['SMILES'] = df_drugs['SMILES'][8]
-
-dfxx = pd.concat([targets, 
-                  df_targets_2, 
-                  df_targets_3, 
-                  df_targets_4, 
-                  df_targets_5, 
-                  df_targets_6, 
-                  df_targets_7, 
-                  df_targets_8, 
-                  df_targets_9], axis=0)
-
-dfxx.to_csv('disease_clean.csv')
-
-target_name = dfxx['Protein name'].tolist()
-target = dfxx.sequence.tolist()
-drug_name = dfxx.drug_name.tolist()
-drug = dfxx.SMILES.tolist()
-
-# Virtual screening using the trained model or pre-trained model 
-
-net = models.model_pretrained(model = 'MPNN_CNN_BindingDB')
-
-_ = models.virtual_screening(drug, target, net, drug_name, target_name)
